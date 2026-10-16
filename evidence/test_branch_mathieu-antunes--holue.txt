@@ -1,0 +1,22 @@
+=== MarketPulse ===
+
+Instrument
+AAPL - Apple Inc.
+Last price: 266.20 USD
+
+Benchmark
+SP500 - S&P 500
+Last level: 6742.00
+
+
+Period: 1 month
+Interval: Daily
+
+Observations
+AAPL: 21
+SP500: 21
+
+
+@MathieuAH ➜ /workspaces/esilv-marketpulse-starter (mathieu-antunes--holue) $ git branch
+  main
+* mathieu-antunes--holue
