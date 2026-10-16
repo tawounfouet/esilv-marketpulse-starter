@@ -1,0 +1,22 @@
+@manongay ➜ /workspaces/esilv-marketpulse-g05-t06 (manon-gay) $ python src/main.py
+=== MarketPulse ===
+
+Instrument
+AAPL - Apple Inc.
+Last price: 266.20 USD
+
+Benchmark
+SP500 - S&P 500
+Last level: 6742.00
+
+Period: 1 month
+Interval: Daily
+
+Observations
+AAPL: 21
+SP500: 21
+
+
+@manongay ➜ /workspaces/esilv-marketpulse-g05-t06 (manon-gay) $ git branch
+  main
+* manon-gay
