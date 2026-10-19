@@ -1,0 +1,22 @@
+@lina-042 ➜ /workspaces/esilv-marketpulse-g05-t06 (lina-bchibchi) $ python src/main.py
+=== MarketPulse ===
+
+Market configuration
+Period   : 1 month
+Interval : Daily
+
+Instrument
+AAPL - Apple Inc.
+Observations : 21
+First close  : 250.00 USD
+Last close   : 266.20 USD
+
+Benchmark
+SP500 - S&P 500
+Observations : 21
+First close  : 6600.00
+Last close   : 6742.00
+
+@lina-042 ➜ /workspaces/esilv-marketpulse-g05-t06 (lina-bchibchi) $ git branch
+* lina-bchibchi
+  main
