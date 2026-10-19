@@ -1,0 +1,40 @@
+@boris94300 ➜ /workspaces/esilv-marketpulse-g05-t02 (boris-danailov) $ python src/main.py
+=== MarketPulse ===
+
+Instrument
+AAPL - Apple Inc.
+Last price: 266.20 USD
+
+Benchmark
+SP500 - S&P 500
+Last level: 6742.00
+
+Period: 1 month
+Interval: Daily
+
+Observations
+AAPL: 21
+SP500: 21
+
+@boris94300 ➜ /workspaces/esilv-marketpulse-g05-t02 (boris-danailov) $ git branch
+* boris-danailov
+  main
+
+@boris94300 ➜ /workspaces/esilv-marketpulse-g05-t02 (boris-danailov) $ git status
+On branch boris-danailov
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        evidence/test_boris-danailov.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+@boris94300 ➜ /workspaces/esilv-marketpulse-g05-t02 (boris-danailov) $ git add evidence/test_boris-danailov.txt
+
+@boris94300 ➜ /workspaces/esilv-marketpulse-g05-t02 (boris-danailov) $ git commit -m "Comit test branch boris danailov"
+[boris-danailov cae8981] Comit test branch boris danailov
+ 1 file changed, 29 insertions(+)
+ create mode 100644 evidence/test_boris-danailov.txt
+
+@boris94300 ➜ /workspaces/esilv-marketpulse-g05-t02 (boris-danailov) $ git status
+On branch boris-danailov
+nothing to commit, working tree clean
