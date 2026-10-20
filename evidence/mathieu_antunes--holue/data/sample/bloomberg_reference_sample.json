@@ -1,0 +1,360 @@
+{
+  "sample_kind": "instructor_approved_fallback_fixture",
+  "provider_stage": "bloomberg",
+  "access_mode": "approved_sample",
+  "is_live_bloomberg_output": false,
+  "provenance": "Illustrative teaching values reused from data/sample/prices.csv. Not certified Bloomberg historical observations.",
+  "schema_note": "observation_date/open_value/high_value/low_value/close_value/volume_value are teaching wrapper keys, not Bloomberg field mnemonics.",
+  "series": [
+    {
+      "role": "instrument",
+      "canonical_ticker": "AAPL",
+      "provider_identifier": "AAPL US Equity",
+      "observations": [
+        {
+          "observation_date": "2026-09-01",
+          "open_value": 249.2,
+          "high_value": 251.5,
+          "low_value": 248,
+          "close_value": 250,
+          "volume_value": 38000000
+        },
+        {
+          "observation_date": "2026-09-02",
+          "open_value": 250.8,
+          "high_value": 252.8,
+          "low_value": 249.6,
+          "close_value": 251.3,
+          "volume_value": 39500000
+        },
+        {
+          "observation_date": "2026-09-03",
+          "open_value": 249.6,
+          "high_value": 251.3,
+          "low_value": 248.4,
+          "close_value": 249.8,
+          "volume_value": 41000000
+        },
+        {
+          "observation_date": "2026-09-04",
+          "open_value": 251.3,
+          "high_value": 253.6,
+          "low_value": 250.1,
+          "close_value": 252.1,
+          "volume_value": 42500000
+        },
+        {
+          "observation_date": "2026-09-08",
+          "open_value": 251.9,
+          "high_value": 253.9,
+          "low_value": 250.7,
+          "close_value": 252.4,
+          "volume_value": 44000000
+        },
+        {
+          "observation_date": "2026-09-09",
+          "open_value": 254,
+          "high_value": 255.7,
+          "low_value": 252.8,
+          "close_value": 254.2,
+          "volume_value": 38000000
+        },
+        {
+          "observation_date": "2026-09-10",
+          "open_value": 254.3,
+          "high_value": 256.6,
+          "low_value": 253.1,
+          "close_value": 255.1,
+          "volume_value": 39500000
+        },
+        {
+          "observation_date": "2026-09-11",
+          "open_value": 254.2,
+          "high_value": 256.2,
+          "low_value": 253,
+          "close_value": 254.7,
+          "volume_value": 41000000
+        },
+        {
+          "observation_date": "2026-09-14",
+          "open_value": 256.6,
+          "high_value": 258.3,
+          "low_value": 255.4,
+          "close_value": 256.8,
+          "volume_value": 42500000
+        },
+        {
+          "observation_date": "2026-09-15",
+          "open_value": 257.2,
+          "high_value": 259.5,
+          "low_value": 256,
+          "close_value": 258,
+          "volume_value": 44000000
+        },
+        {
+          "observation_date": "2026-09-16",
+          "open_value": 256.7,
+          "high_value": 258.7,
+          "low_value": 255.5,
+          "close_value": 257.2,
+          "volume_value": 38000000
+        },
+        {
+          "observation_date": "2026-09-17",
+          "open_value": 259.2,
+          "high_value": 260.9,
+          "low_value": 258,
+          "close_value": 259.4,
+          "volume_value": 39500000
+        },
+        {
+          "observation_date": "2026-09-18",
+          "open_value": 259.3,
+          "high_value": 261.6,
+          "low_value": 258.1,
+          "close_value": 260.1,
+          "volume_value": 41000000
+        },
+        {
+          "observation_date": "2026-09-21",
+          "open_value": 259.1,
+          "high_value": 261.1,
+          "low_value": 257.9,
+          "close_value": 259.6,
+          "volume_value": 42500000
+        },
+        {
+          "observation_date": "2026-09-22",
+          "open_value": 261.1,
+          "high_value": 262.8,
+          "low_value": 259.9,
+          "close_value": 261.3,
+          "volume_value": 44000000
+        },
+        {
+          "observation_date": "2026-09-23",
+          "open_value": 261.2,
+          "high_value": 263.5,
+          "low_value": 260,
+          "close_value": 262,
+          "volume_value": 38000000
+        },
+        {
+          "observation_date": "2026-09-24",
+          "open_value": 263,
+          "high_value": 265,
+          "low_value": 261.8,
+          "close_value": 263.5,
+          "volume_value": 39500000
+        },
+        {
+          "observation_date": "2026-09-25",
+          "open_value": 262.6,
+          "high_value": 264.3,
+          "low_value": 261.4,
+          "close_value": 262.8,
+          "volume_value": 41000000
+        },
+        {
+          "observation_date": "2026-09-28",
+          "open_value": 263.3,
+          "high_value": 265.6,
+          "low_value": 262.1,
+          "close_value": 264.1,
+          "volume_value": 42500000
+        },
+        {
+          "observation_date": "2026-09-29",
+          "open_value": 264.5,
+          "high_value": 266.5,
+          "low_value": 263.3,
+          "close_value": 265,
+          "volume_value": 44000000
+        },
+        {
+          "observation_date": "2026-09-30",
+          "open_value": 266,
+          "high_value": 267.7,
+          "low_value": 264.8,
+          "close_value": 266.2,
+          "volume_value": 38000000
+        }
+      ]
+    },
+    {
+      "role": "benchmark",
+      "canonical_ticker": "SP500",
+      "provider_identifier": "SPX Index",
+      "observations": [
+        {
+          "observation_date": "2026-09-01",
+          "open_value": 6592,
+          "high_value": 6615,
+          "low_value": 6580,
+          "close_value": 6600,
+          "volume_value": 0
+        },
+        {
+          "observation_date": "2026-09-02",
+          "open_value": 6607,
+          "high_value": 6627,
+          "low_value": 6595,
+          "close_value": 6612,
+          "volume_value": 0
+        },
+        {
+          "observation_date": "2026-09-03",
+          "open_value": 6596,
+          "high_value": 6613,
+          "low_value": 6584,
+          "close_value": 6598,
+          "volume_value": 0
+        },
+        {
+          "observation_date": "2026-09-04",
+          "open_value": 6612,
+          "high_value": 6635,
+          "low_value": 6600,
+          "close_value": 6620,
+          "volume_value": 0
+        },
+        {
+          "observation_date": "2026-09-08",
+          "open_value": 6623,
+          "high_value": 6643,
+          "low_value": 6611,
+          "close_value": 6628,
+          "volume_value": 0
+        },
+        {
+          "observation_date": "2026-09-09",
+          "open_value": 6640,
+          "high_value": 6657,
+          "low_value": 6628,
+          "close_value": 6642,
+          "volume_value": 0
+        },
+        {
+          "observation_date": "2026-09-10",
+          "open_value": 6642,
+          "high_value": 6665,
+          "low_value": 6630,
+          "close_value": 6650,
+          "volume_value": 0
+        },
+        {
+          "observation_date": "2026-09-11",
+          "open_value": 6642,
+          "high_value": 6662,
+          "low_value": 6630,
+          "close_value": 6647,
+          "volume_value": 0
+        },
+        {
+          "observation_date": "2026-09-14",
+          "open_value": 6663,
+          "high_value": 6680,
+          "low_value": 6651,
+          "close_value": 6665,
+          "volume_value": 0
+        },
+        {
+          "observation_date": "2026-09-15",
+          "open_value": 6664,
+          "high_value": 6687,
+          "low_value": 6652,
+          "close_value": 6672,
+          "volume_value": 0
+        },
+        {
+          "observation_date": "2026-09-16",
+          "open_value": 6663,
+          "high_value": 6683,
+          "low_value": 6651,
+          "close_value": 6668,
+          "volume_value": 0
+        },
+        {
+          "observation_date": "2026-09-17",
+          "open_value": 6683,
+          "high_value": 6700,
+          "low_value": 6671,
+          "close_value": 6685,
+          "volume_value": 0
+        },
+        {
+          "observation_date": "2026-09-18",
+          "open_value": 6684,
+          "high_value": 6707,
+          "low_value": 6672,
+          "close_value": 6692,
+          "volume_value": 0
+        },
+        {
+          "observation_date": "2026-09-21",
+          "open_value": 6683,
+          "high_value": 6703,
+          "low_value": 6671,
+          "close_value": 6688,
+          "volume_value": 0
+        },
+        {
+          "observation_date": "2026-09-22",
+          "open_value": 6703,
+          "high_value": 6720,
+          "low_value": 6691,
+          "close_value": 6705,
+          "volume_value": 0
+        },
+        {
+          "observation_date": "2026-09-23",
+          "open_value": 6704,
+          "high_value": 6727,
+          "low_value": 6692,
+          "close_value": 6712,
+          "volume_value": 0
+        },
+        {
+          "observation_date": "2026-09-24",
+          "open_value": 6715,
+          "high_value": 6735,
+          "low_value": 6703,
+          "close_value": 6720,
+          "volume_value": 0
+        },
+        {
+          "observation_date": "2026-09-25",
+          "open_value": 6713,
+          "high_value": 6730,
+          "low_value": 6701,
+          "close_value": 6715,
+          "volume_value": 0
+        },
+        {
+          "observation_date": "2026-09-28",
+          "open_value": 6720,
+          "high_value": 6743,
+          "low_value": 6708,
+          "close_value": 6728,
+          "volume_value": 0
+        },
+        {
+          "observation_date": "2026-09-29",
+          "open_value": 6729,
+          "high_value": 6749,
+          "low_value": 6717,
+          "close_value": 6734,
+          "volume_value": 0
+        },
+        {
+          "observation_date": "2026-09-30",
+          "open_value": 6740,
+          "high_value": 6757,
+          "low_value": 6728,
+          "close_value": 6742,
+          "volume_value": 0
+        }
+      ]
+    }
+  ]
+}
