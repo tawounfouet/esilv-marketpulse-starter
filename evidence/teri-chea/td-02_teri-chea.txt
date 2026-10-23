@@ -1,0 +1,56 @@
+16/10/2026
+
+GIT BRANCH :
+@terxchea ➜ /workspaces/esilv-marketpulse-g06-t02 (main) $ git checkout -b teri-chea
+Switched to a new branch 'teri-chea'
+@terxchea ➜ /workspaces/esilv-marketpulse-g06-t02 (teri-chea) $ git branch
+  main
+* teri-chea
+
+ls -la :
+@terxchea ➜ /workspaces/esilv-marketpulse-g06-t02 (teri-chea) $ ls -la
+total 60
+drwxrwxrwx+ 8 codespace root  4096 Oct 16 07:30 .
+drwxr-xrwx+ 5 codespace root  4096 Oct 16 07:30 ..
+drwxrwxrwx+ 8 codespace root  4096 Oct 16 08:55 .git
+-rw-rw-rw-  1 codespace root   178 Oct 16 07:30 .gitignore
+-rw-rw-rw-  1 codespace root  2943 Oct 16 07:30 CONTRIBUTING.md
+-rw-rw-rw-  1 codespace root 10270 Oct 16 07:30 README.md
+-rw-rw-rw-  1 codespace root  1446 Oct 16 07:30 TEAM_TEMPLATE.md
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:30 config
+drwxrwxrwx+ 3 codespace root  4096 Oct 16 07:30 data
+drwxrwxrwx+ 4 codespace root  4096 Oct 16 07:30 docs
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 08:54 evidence
+-rw-rw-rw-  1 codespace root   133 Oct 16 07:30 requirements.txt
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:30 src
+
+pwd :
+@terxchea ➜ /workspaces/esilv-marketpulse-g06-t02 (teri-chea) $ pwd
+/workspaces/esilv-marketpulse-g06-t02
+
+ls -l :
+@terxchea ➜ /workspaces/esilv-marketpulse-g06-t02 (teri-chea) $ ls -l
+total 44
+-rw-rw-rw-  1 codespace root  2943 Oct 16 07:30 CONTRIBUTING.md
+-rw-rw-rw-  1 codespace root 10270 Oct 16 07:30 README.md
+-rw-rw-rw-  1 codespace root  1446 Oct 16 07:30 TEAM_TEMPLATE.md
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:30 config
+drwxrwxrwx+ 3 codespace root  4096 Oct 16 07:30 data
+drwxrwxrwx+ 4 codespace root  4096 Oct 16 07:30 docs
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 08:54 evidence
+-rw-rw-rw-  1 codespace root   133 Oct 16 07:30 requirements.txt
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:30 src
+
+@terxchea ➜ /workspaces/esilv-marketpulse-g06-t02 (teri-chea) $ ls
+CONTRIBUTING.md  README.md  TEAM_TEMPLATE.md  config  data  docs  evidence  requirements.txt  src
+
+@terxchea ➜ /workspaces/esilv-marketpulse-g06-t02 (teri-chea) $ cd data
+@terxchea ➜ /workspaces/esilv-marketpulse-g06-t02/data (teri-chea) $ pwd $$ ls
+/workspaces/esilv-marketpulse-g06-t02/data
+@terxchea ➜ /workspaces/esilv-marketpulse-g06-t02/data (teri-chea) $ cd sample
+@terxchea ➜ /workspaces/esilv-marketpulse-g06-t02/data/sample (teri-chea) $ ls
+bloomberg_reference_expected.json  bloomberg_reference_sample.json  instruments.json  prices.csv
+@terxchea ➜ /workspaces/esilv-marketpulse-g06-t02/data/sample (teri-chea) $ cd ../..
+@terxchea ➜ /workspaces/esilv-marketpulse-g06-t02 (teri-chea) $ cd data
+@terxchea ➜ /workspaces/esilv-marketpulse-g06-t02/data (teri-chea) $ pwd
+/workspaces/esilv-marketpulse-g06-t02/data
