@@ -1,0 +1,83 @@
+👋 Welcome to Codespaces! You are on our default image. 
+   - It includes runtimes and tools for Python, Node.js, Docker, and more. See the full list here: https://aka.ms/ghcs-default-image
+   - Want to use a custom image instead? Learn more here: https://aka.ms/configure-codespace
+
+🔍 To explore VS Code to its fullest, search using the Command Palette (Cmd/Ctrl + Shift + P or F1).
+
+📝 Edit away, run your app as usual, and we'll automatically make it available for you to access.
+
+@GabrielSuissa24 ➜ /workspaces/esilv-marketpulse-g06-t03 (main) $ git checkout -bgabriel-suissa
+Switched to a new branch 'gabriel-suissa'
+@GabrielSuissa24 ➜ /workspaces/esilv-marketpulse-g06-t03 (gabriel-suissa) $ git branch
+* gabriel-suissa
+  main
+@GabrielSuissa24 ➜ /workspaces/esilv-marketpulse-g06-t03 (gabriel-suissa) $ pwd
+/workspaces/esilv-marketpulse-g06-t03
+@GabrielSuissa24 ➜ /workspaces/esilv-marketpulse-g06-t03 (gabriel-suissa) $ ls
+CONTRIBUTING.md  TEAM.md           config  docs      requirements.txt
+README.md        TEAM_TEMPLATE.md  data    evidence  src
+@GabrielSuissa24 ➜ /workspaces/esilv-marketpulse-g06-t03 (gabriel-suissa) $ ls -la
+total 64
+drwxrwxrwx+ 8 codespace root  4096 Oct 16 08:43 .
+drwxr-xrwx+ 5 codespace root  4096 Oct 16 08:44 ..
+drwxrwxrwx+ 8 codespace root  4096 Oct 16 08:45 .git
+-rw-rw-rw-  1 codespace root   178 Oct 16 08:43 .gitignore
+-rw-rw-rw-  1 codespace root  2943 Oct 16 08:43 CONTRIBUTING.md
+-rw-rw-rw-  1 codespace root 10270 Oct 16 08:43 README.md
+-rw-rw-rw-  1 codespace root  1506 Oct 16 08:43 TEAM.md
+-rw-rw-rw-  1 codespace root  1446 Oct 16 08:43 TEAM_TEMPLATE.md
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 08:43 config
+drwxrwxrwx+ 3 codespace root  4096 Oct 16 08:43 data
+drwxrwxrwx+ 4 codespace root  4096 Oct 16 08:43 docs
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 08:50 evidence
+-rw-rw-rw-  1 codespace root   133 Oct 16 08:43 requirements.txt
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 08:43 src
+@GabrielSuissa24 ➜ /workspaces/esilv-marketpulse-g06-t03 (gabriel-suissa) $ git add /workspaces/esilv-marketpulse-g06-t03/evidence/td-02_gabriel-suissa.txt
+@GabrielSuissa24 ➜ /workspaces/esilv-marketpulse-g06-t03 (gabriel-suissa) $ git add evidence/ td
+fatal: pathspec 'td' did not match any files
+@GabrielSuissa24 ➜ /workspaces/esilv-marketpulse-g06-t03 (gabriel-suissa) $ git push
+fatal: The current branch gabriel-suissa has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin gabriel-suissa
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+@GabrielSuissa24 ➜ /workspaces/esilv-marketpulse-g06-t03 (gabriel-suissa) $ git add evidence/ td-02_gabriel-suissa.txt
+fatal: pathspec 'td-02_gabriel-suissa.txt' did not match any files
+@GabrielSuissa24 ➜ /workspaces/esilv-marketpulse-g06-t03 (gabriel-suissa) $ git add evidence/ td-02_gabriel-suissa.txt^C
+fatal: pathspec 'td-02_gabriel-suissa.txt^C' did not match any files
+@GabrielSuissa24 ➜ /workspaces/esilv-marketpulse-g06-t03 (gabriel-suissa) $ git add evidence/td-02_gabriel-suissa.txt^C
+fatal: pathspec 'evidence/td-02_gabriel-suissa.txt^C' did not match any files
+@GabrielSuissa24 ➜ /workspaces/esilv-marketpulse-g06-t03 (gabriel-suissa) $ git add /workspaces/esilv-marketpulse-g06-t03/evidence/td-02_gabriel-suissa.txt
+@GabrielSuissa24 ➜ /workspaces/esilv-marketpulse-g06-t03 (gabriel-suissa) $ git commit -m "Linux Basics"
+[gabriel-suissa c8275e3] Linux Basics
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 evidence/td-02_gabriel-suissa.txt
+@GabrielSuissa24 ➜ /workspaces/esilv-marketpulse-g06-t03 (gabriel-suissa) $ git push
+fatal: The current branch gabriel-suissa has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin gabriel-suissa
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+@GabrielSuissa24 ➜ /workspaces/esilv-marketpulse-g06-t03 (gabriel-suissa) $ git p
+ush --set-upstream origin gabriel-suissa
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 369 bytes | 369.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'gabriel-suissa' on GitHub by visiting:
+remote:      https://github.com/hasaddd20/esilv-marketpulse-g06-t03/pull/new/gabriel-suissa
+remote: 
+To https://github.com/hasaddd20/esilv-marketpulse-g06-t03
+ * [new branch]      gabriel-suissa -> gabriel-suissa
+branch 'gabriel-suissa' set up to track 'origin/gabriel-suissa'.
+@GabrielSuissa24 ➜ /workspaces/esilv-marketpulse-g06-t03 (gabriel-suissa) $ 
