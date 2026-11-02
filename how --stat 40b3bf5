@@ -1,0 +1,26 @@
+[33mcommit 92257f97fbd1471cdf21c11a692604403f81e35a[m
+Author: Thomas AWOUNFOUET <thomas.awounfouet@gmail.com>
+Date:   Wed Oct 14 12:10:20 2026 +0200
+
+    Adde labs 1 & 2
+
+ docs/01_STUDENT_ONBOARDING.md                     | 195 [32m++++++++++++++[m
+ docs/04_CHECKPOINTS_AND_EVIDENCE.md               | 694 [32m++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ docs/advanced/ADV_BBG_01_REFERENCE_DATA.md        | 156 [32m++++++++++++[m
+ docs/advanced/ADV_DASH_01_CALLBACK.md             | 171 [32m+++++++++++++[m
+ docs/advanced/ADV_DASH_02_INSTRUMENT_SELECTOR.md  | 162 [32m++++++++++++[m
+ docs/advanced/ADV_GIT_01_CONFLICT_RESOLUTION.md   | 168 [32m++++++++++++[m
+ docs/advanced/ADV_GIT_02_RESTORE_REVERT_RESET.md  | 189 [32m++++++++++++++[m
+ docs/advanced/ADV_GIT_04_TAGS_RELEASES.md         | 154 [32m+++++++++++[m
+ docs/advanced/ADV_LNX_01_FILE_OPERATIONS.md       | 176 [32m+++++++++++++[m
+ docs/advanced/ADV_LNX_02_PERMISSIONS_CHMOD.md     | 161 [32m++++++++++++[m
+ docs/advanced/ADV_LNX_03_PIPES_TEXT_PROCESSING.md | 175 [32m+++++++++++++[m
+ docs/advanced/ADV_LNX_04_ENVIRONMENT_VARIABLES.md | 159 [32m++++++++++++[m
+ docs/advanced/ADV_RMT_01_SSH_FUNDAMENTALS.md      | 181 [32m+++++++++++++[m
+ docs/advanced/ADV_RMT_03_SYSTEMD_SERVICE.md       | 171 [32m+++++++++++++[m
+ docs/advanced/README.md                           | 750 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ docs/labs/README.md                               | 188 [32m++++++++++++++[m
+ docs/labs/TD01_BOOTSTRAP_LINUX.md                 | 760 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ docs/labs/TD02_PYTHON_CSV_JSON.md                 | 835 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ docs/labs/TD03_GIT_LOCAL_WORKFLOW.md              | 795 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 19 files changed, 6240 insertions(+)
