@@ -1,0 +1,148 @@
+
+Linux basics:
+
+@eminboghos ➜ /workspaces/G06-T04 (main) $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+@eminboghos ➜ /workspaces/G06-T04 (main) $ git checkout -b -eminboghos
+fatal: '-eminboghos' is not a valid branch name
+hint: See 'git help check-ref-format'
+hint: Disable this message with "git config set advice.refSyntax false"
+@eminboghos ➜ /workspaces/G06-T04 (main) $ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+@eminboghos ➜ /workspaces/G06-T04 (main) $ git checkout -b eminboghos
+Switched to a new branch 'eminboghos'
+@eminboghos ➜ /workspaces/G06-T04 (eminboghos) $ get branch
+bash: get: command not found
+@eminboghos ➜ /workspaces/G06-T04 (eminboghos) $ git branch
+* eminboghos
+  main
+@eminboghos ➜ /workspaces/G06-T04 (eminboghos) $ pwd
+/workspaces/G06-T04
+@eminboghos ➜ /workspaces/G06-T04 (eminboghos) $ ls
+CONTRIBUTING.md  README.md  TEAM_TEMPLATE.md  config  data  docs  evidence  requirements.txt  src
+@eminboghos ➜ /workspaces/G06-T04 (eminboghos) $ ls (ls
+bash: syntax error near unexpected token `('
+@eminboghos ➜ /workspaces/G06-T04 (eminboghos) $ ls -ls
+total 44
+ 4 -rw-rw-rw-  1 codespace root  2943 Oct 16 07:35 CONTRIBUTING.md
+12 -rw-rw-rw-  1 codespace root 10270 Oct 16 07:35 README.md
+ 4 -rw-rw-rw-  1 codespace root  1446 Oct 16 07:35 TEAM_TEMPLATE.md
+ 4 drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:35 config
+ 4 drwxrwxrwx+ 3 codespace root  4096 Oct 16 07:35 data
+ 4 drwxrwxrwx+ 4 codespace root  4096 Oct 16 07:35 docs
+ 4 drwxrwxrwx+ 2 codespace root  4096 Oct 16 08:48 evidence
+ 4 -rw-rw-rw-  1 codespace root   133 Oct 16 07:35 requirements.txt
+ 4 drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:35 src
+@eminboghos ➜ /workspaces/G06-T04 (eminboghos) $ git add /workspaces/G06-T04/evidence/td-02-eminboghos.txt
+@eminboghos ➜ /workspaces/G06-T04 (eminboghos) $ git add evidence/td-02-eminboghos.txt
+@eminboghos ➜ /workspaces/G06-T04 (eminboghos) $ git commit -n "Linux Basics Emin"
+error: pathspec 'Linux Basics Emin' did not match any file(s) known to git
+@eminboghos ➜ /workspaces/G06-T04 (eminboghos) $ git commit -n "Linux Basics"
+error: pathspec 'Linux Basics' did not match any file(s) known to git
+@eminboghos ➜ /workspaces/G06-T04 (eminboghos) $ git commit -n "Linux Basics"
+error: pathspec 'Linux Basics' did not match any file(s) known to git
+@eminboghos ➜ /workspaces/G06-T04 (eminboghos) $ git commit -m "Linux Basics"
+[eminboghos e2f44bd] Linux Basics
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 evidence/td-02-eminboghos.txt
+@eminboghos ➜ /workspaces/G06-T04 (eminboghos) $ git push
+fatal: The current branch eminboghos has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin eminboghos
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+@eminboghos ➜ /workspaces/G06-T04 (eminboghos) $     git push --set-upstream origin eminboghos
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 349 bytes | 349.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'eminboghos' on GitHub by visiting:
+remote:      https://github.com/eminboghos/G06-T04/pull/new/eminboghos
+remote: 
+To https://github.com/eminboghos/G06-T04
+ * [new branch]      eminboghos -> eminboghos
+branch 'eminboghos' set up to track 'origin/eminboghos'.
+@eminboghos ➜ /workspaces/G06-T04 (eminboghos) $ 
+
+
+
+Linux Navigation : 
+
+@eminboghos ➜ /workspaces/G06-T04 (eminboghos) $ cd data
+@eminboghos ➜ /workspaces/G06-T04/data (eminboghos) $ pwd && ls
+/workspaces/G06-T04/data
+sample
+@eminboghos ➜ /workspaces/G06-T04/data (eminboghos) $ cd sample
+@eminboghos ➜ /workspaces/G06-T04/data/sample (eminboghos) $ ls
+bloomberg_reference_expected.json  bloomberg_reference_sample.json  instruments.json  prices.csv
+@eminboghos ➜ /workspaces/G06-T04/data/sample (eminboghos) $ ls -a
+.  ..  bloomberg_reference_expected.json  bloomberg_reference_sample.json  instruments.json  prices.csv
+@eminboghos ➜ /workspaces/G06-T04/data/sample (eminboghos) $ @eminboghos ➜ /workspaces/G06-T04 (main) $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+@eminboghos ➜ /workspaces/G06-T04 (main) $ git checkout -b -eminboghos
+fatal: '-eminboghos' is not a valid branch name
+hint: See 'git help check-ref-format'
+hint: Disable this message with "git config set advice.refSyntax false"
+@eminboghos ➜ /workspaces/G06-T04 (main) $ git add
+Nothing specified, nothing added.
+@eminboghos ➜ /workspaces/G06-T04 (eminboghos) $ ^Chos'.new/eminboghosstream origin eminboghosinboghos.txt
+@eminboghos ➜ /workspaces/G06-T04/data/sample (eminboghos) $ ^C
+@eminboghos ➜ /workspaces/G06-T04/data/sample (eminboghos) $ ^C
+@eminboghos ➜ /workspaces/G06-T04/data/sample (eminboghos) $ ^C
+@eminboghos ➜ /workspaces/G06-T04/data/sample (eminboghos) $ @eminboghos ➜ /workspaces/G06-T04 (main) $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+@eminboghos ➜ /workspaces/G06-T04 (main) $ git checkout -b -eminboghos
+fatal: '-eminboghos' is not a valid branch name
+hint: See 'git help check-ref-format'
+hint: Disable this message with "git config set advice.refSyntax false"
+@eminboghos ➜ /workspaces/G06-T04 (main) $ git add
+Nothing specified, nothing added.
+                                                 ^C
+@eminboghos ➜ /workspaces/G06-T04/data/sample (eminboghos) $ ^C
+@eminboghos ➜ /workspaces/G06-T04/data/sample (eminboghos) $ ^C
+@eminboghos ➜ /workspaces/G06-T04/data/sample (eminboghos) $ ^C
+@eminboghos ➜ /workspaces/G06-T04/data/sample (eminboghos) $ ^C
+@eminboghos ➜ /workspaces/G06-T04/data/sample (eminboghos) $ ^C
+@eminboghos ➜ /workspaces/G06-T04/data/sample (eminboghos) $ ^C
+@eminboghos ➜ /workspaces/G06-T04/data/sample (eminboghos) $ ^C
+@eminboghos ➜ /workspaces/G06-T04/data/sample (eminboghos) $ git commit -m "Linux Navigation"
+On branch eminboghos
+Your branch is up to date with 'origin/eminboghos'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../../evidence/td-02-eminboghos.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+@eminboghos ➜ /workspaces/G06-T04/data/sample (eminboghos) $ git commit
+On branch eminboghos
+Your branch is up to date with 'origin/eminboghos'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../../evidence/td-02-eminboghos.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+@eminboghos ➜ /workspaces/G06-T04/data/sample (eminboghos) $ git push
+Everything up-to-date
+@eminboghos ➜ /workspaces/G06-T04/data/sample (eminboghos) $ 
