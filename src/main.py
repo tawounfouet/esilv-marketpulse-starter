@@ -43,7 +43,7 @@ def main():
     print()
     print("Instrument")
     print(f"{instrument['ticker']} - {instrument['name']}")
-    print(f"Last price: {instrument_latest['close']} {instrument['currency']}")
+    print(f"Latest closing price: {instrument_latest['close']} {instrument['currency']}")
     print()
     print("Benchmark")
     print(f"{benchmark['ticker']} - {benchmark['name']}")
