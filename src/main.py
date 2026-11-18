@@ -11,6 +11,13 @@ DATA_DIR = Path("data/sample")
 LOOKBACK_LABEL = "1 month"
 INTERVAL_LABEL = "Daily"
 
+def get_first_date(prices):
+    return prices[0]["date"]
+
+
+def get_last_date(prices):
+    return prices[-1]["date"]
+
 
 def load_instruments():
     with open(DATA_DIR / "instruments.json", encoding="utf-8") as file:
