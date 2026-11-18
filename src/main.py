@@ -59,9 +59,13 @@ def main():
     print(f"Period: {LOOKBACK_LABEL}")
     print(f"Interval: {INTERVAL_LABEL}")
     print()
-    print("Observations")
-    print(f"{instrument['ticker']}: {len(instrument_prices)}")
-    print(f"{benchmark['ticker']}: {len(benchmark_prices)}")
+    print("\nObservations")
+    print(f"\n{instrument['ticker']}: {len(instrument_prices)}")
+    print(f"First date: {get_first_date(instrument_prices)}")
+    print(f"Last date: {get_last_date(instrument_prices)}")
+    print(f"\n{benchmark['ticker']}: {len(benchmark_prices)}")
+    print(f"First date: {get_first_date(benchmark_prices)}")
+    print(f"Last date: {get_last_date(benchmark_prices)}")
 
 
 if __name__ == "__main__":
