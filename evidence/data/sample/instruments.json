@@ -1,0 +1,14 @@
+{
+  "instrument": {
+    "ticker": "AAPL",
+    "name": "Apple Inc.",
+    "currency": "USD",
+    "market": "NASDAQ"
+  },
+  "benchmark": {
+    "ticker": "SP500",
+    "name": "S&P 500",
+    "currency": "USD",
+    "market": "US"
+  }
+}
