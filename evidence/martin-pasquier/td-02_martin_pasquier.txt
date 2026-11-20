@@ -1,0 +1,56 @@
+
+@MartinPosquier ➜ /workspaces/esilv-marketpulse-g06-t05 (main) $ git checkout -b
+error: switch `b' requires a value
+@MartinPosquier ➜ /workspaces/esilv-marketpulse-g06-t05 (main) $ git checkout -b martin-pasquier
+Switched to a new branch 'martin-pasquier'
+@MartinPosquier ➜ /workspaces/esilv-marketpulse-g06-t05 (martin-pasquier) $ ls -la
+total 60
+drwxrwxrwx+ 8 codespace root  4096 Oct 16 08:09 .
+drwxr-xrwx+ 5 codespace root  4096 Oct 16 08:10 ..
+drwxrwxrwx+ 8 codespace root  4096 Oct 16 08:42 .git
+-rw-rw-rw-  1 codespace root   178 Oct 16 08:09 .gitignore
+-rw-rw-rw-  1 codespace root  2943 Oct 16 08:09 CONTRIBUTING.md
+-rw-rw-rw-  1 codespace root 10270 Oct 16 08:09 README.md
+-rw-rw-rw-  1 codespace root  1446 Oct 16 08:09 TEAM_TEMPLATE.md
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 08:09 config
+drwxrwxrwx+ 3 codespace root  4096 Oct 16 08:09 data
+drwxrwxrwx+ 4 codespace root  4096 Oct 16 08:09 docs
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 08:09 evidence
+-rw-rw-rw-  1 codespace root   133 Oct 16 08:09 requirements.txt
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 08:09 src
+@MartinPosquier ➜ /workspaces/esilv-marketpulse-g06-t05 (martin-pasquier) $ pwd
+/workspaces/esilv-marketpulse-g06-t05
+@MartinPosquier ➜ /workspaces/esilv-marketpulse-g06-t05 (martin-pasquier) $ ls -la
+total 60
+drwxrwxrwx+ 8 codespace root  4096 Oct 16 08:09 .
+drwxr-xrwx+ 5 codespace root  4096 Oct 16 08:10 ..
+drwxrwxrwx+ 8 codespace root  4096 Oct 16 08:42 .git
+-rw-rw-rw-  1 codespace root   178 Oct 16 08:09 .gitignore
+-rw-rw-rw-  1 codespace root  2943 Oct 16 08:09 CONTRIBUTING.md
+-rw-rw-rw-  1 codespace root 10270 Oct 16 08:09 README.md
+-rw-rw-rw-  1 codespace root  1446 Oct 16 08:09 TEAM_TEMPLATE.md
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 08:09 config
+drwxrwxrwx+ 3 codespace root  4096 Oct 16 08:09 data
+drwxrwxrwx+ 4 codespace root  4096 Oct 16 08:09 docs
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 08:09 evidence
+-rw-rw-rw-  1 codespace root   134 Oct 16 08:56 requirements.txt
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 08:09 src
+@MartinPosquier ➜ /workspaces/esilv-marketpulse-g06-t05 (martin-pasquier) $ pwd
+/workspaces/esilv-marketpulse-g06-t05
+@MartinPosquier ➜ /workspaces/esilv-marketpulse-g06-t05 (martin-pasquier) $ ls
+CONTRIBUTING.md  README.md  TEAM_TEMPLATE.md  config  data  docs  evidence  requirements.txt  src
+@MartinPosquier ➜ /workspaces/esilv-marketpulse-g06-t05 (martin-pasquier) $ ls -la
+total 60
+drwxrwxrwx+ 8 codespace root  4096 Oct 16 08:09 .
+drwxr-xrwx+ 5 codespace root  4096 Oct 16 08:10 ..
+drwxrwxrwx+ 8 codespace root  4096 Oct 16 08:42 .git
+-rw-rw-rw-  1 codespace root   178 Oct 16 08:09 .gitignore
+-rw-rw-rw-  1 codespace root  2943 Oct 16 08:09 CONTRIBUTING.md
+-rw-rw-rw-  1 codespace root 10270 Oct 16 08:09 README.md
+-rw-rw-rw-  1 codespace root  1446 Oct 16 08:09 TEAM_TEMPLATE.md
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 08:09 config
+drwxrwxrwx+ 3 codespace root  4096 Oct 16 08:09 data
+drwxrwxrwx+ 4 codespace root  4096 Oct 16 08:09 docs
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 08:09 evidence
+-rw-rw-rw-  1 codespace root   134 Oct 16 08:56 requirements.txt
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 08:09 src
