@@ -1,0 +1,143 @@
+@arthurvlrs05-rgb ➜ /workspaces/esilv-marketpulse-g06-t03 (main) $ git statuts
+git: 'statuts' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+@arthurvlrs05-rgb ➜ /workspaces/esilv-marketpulse-g06-t03 (main) $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+@arthurvlrs05-rgb ➜ /workspaces/esilv-marketpulse-g06-t03 (main) $ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+@arthurvlrs05-rgb ➜ /workspaces/esilv-marketpulse-g06-t03 (main) $ git add .
+@arthurvlrs05-rgb ➜ /workspaces/esilv-marketpulse-g06-t03 (main) $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+@arthurvlrs05-rgb ➜ /workspaces/esilv-marketpulse-g06-t03 (main) $ git checkout -n arthur-vanlaeres
+error: unknown switch `n'
+usage: git checkout [<options>] <branch>
+   or: git checkout [<options>] [<branch>] -- <file>...
+
+    -b <branch>           create and checkout a new branch
+    -B <branch>           create/reset and checkout a branch
+    -l                    create reflog for new branch
+    --[no-]guess          second guess 'git checkout <no-such-branch>' (default)
+    --[no-]overlay        use overlay mode (default)
+    --[no-]auto-advance   auto advance to the next file when selecting hunks interactively
+    -q, --[no-]quiet      suppress progress reporting
+    --[no-]recurse-submodules[=<checkout>]
+                          control recursive updating of submodules
+    --[no-]progress       force progress reporting
+    -m, --[no-]merge      perform a 3-way merge with the new branch
+    --[no-]conflict <style>
+                          conflict style (merge, diff3, or zdiff3)
+    -d, --[no-]detach     detach HEAD at named commit
+    -t, --[no-]track[=(direct|inherit)]
+                          set branch tracking configuration
+    -f, --[no-]force      force checkout (throw away local modifications)
+    --[no-]orphan <new-branch>
+                          new unborn branch
+    --[no-]overwrite-ignore
+                          update ignored files (default)
+    --[no-]ignore-other-worktrees
+                          do not check if another worktree is using this branch
+    -2, --ours            checkout our version for unmerged files
+    -3, --theirs          checkout their version for unmerged files
+    -p, --[no-]patch      select hunks interactively
+    -U, --unified <n>     generate diffs with <n> lines context
+    --inter-hunk-context <n>
+                          show context between diff hunks up to the specified number of lines
+    --[no-]ignore-skip-worktree-bits
+                          do not limit pathspecs to sparse entries only
+    --[no-]pathspec-from-file <file>
+                          read pathspec from file
+    --[no-]pathspec-file-nul
+                          with --pathspec-from-file, pathspec elements are separated with NUL character
+
+@arthurvlrs05-rgb ➜ /workspaces/esilv-marketpulse-g06-t03 (main) $ git checkout -b arthur-vanlaeres
+Switched to a new branch 'arthur-vanlaeres'
+@arthurvlrs05-rgb ➜ /workspaces/esilv-marketpulse-g06-t03 (arthur-vanlaeres) $ ls -la
+total 64
+drwxrwxrwx+ 8 codespace root  4096 Oct 16 07:26 .
+drwxr-xrwx+ 5 codespace root  4096 Oct 16 07:26 ..
+drwxrwxrwx+ 8 codespace root  4096 Oct 16 08:51 .git
+-rw-rw-rw-  1 codespace root   178 Oct 16 07:26 .gitignore
+-rw-rw-rw-  1 codespace root  2943 Oct 16 07:26 CONTRIBUTING.md
+-rw-rw-rw-  1 codespace root 10270 Oct 16 07:26 README.md
+-rw-rw-rw-  1 codespace root     1 Oct 16 07:26 TEAM.md
+-rw-rw-rw-  1 codespace root  1446 Oct 16 07:26 TEAM_TEMPLATE.md
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:26 config
+drwxrwxrwx+ 3 codespace root  4096 Oct 16 07:26 data
+drwxrwxrwx+ 4 codespace root  4096 Oct 16 07:26 docs
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:26 evidence
+-rw-rw-rw-  1 codespace root   133 Oct 16 07:26 requirements.txt
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:26 src
+@arthurvlrs05-rgb ➜ /workspaces/esilv-marketpulse-g06-t03 (arthur-vanlaeres) $ git add /works
+fatal: /works: '/works' is outside repository at '/workspaces/esilv-marketpulse-g06-t03'
+@arthurvlrs05-rgb ➜ /workspaces/esilv-marketpulse-g06-t03 (arthur-vanlaeres) $ pwd
+/workspaces/esilv-marketpulse-g06-t03
+@arthurvlrs05-rgb ➜ /workspaces/esilv-marketpulse-g06-t03 (arthur-vanlaeres) $ ls
+CONTRIBUTING.md  README.md  TEAM.md  TEAM_TEMPLATE.md  config  data  docs  evidence  requirements.txt  src
+@arthurvlrs05-rgb ➜ /workspaces/esilv-marketpulse-g06-t03 (arthur-vanlaeres) $ ls -la
+total 64
+drwxrwxrwx+ 8 codespace root  4096 Oct 16 07:26 .
+drwxr-xrwx+ 5 codespace root  4096 Oct 16 07:26 ..
+drwxrwxrwx+ 8 codespace root  4096 Oct 16 09:00 .git
+-rw-rw-rw-  1 codespace root   178 Oct 16 07:26 .gitignore
+-rw-rw-rw-  1 codespace root  2943 Oct 16 07:26 CONTRIBUTING.md
+-rw-rw-rw-  1 codespace root 10270 Oct 16 07:26 README.md
+-rw-rw-rw-  1 codespace root     1 Oct 16 07:26 TEAM.md
+-rw-rw-rw-  1 codespace root  1446 Oct 16 07:26 TEAM_TEMPLATE.md
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:26 config
+drwxrwxrwx+ 3 codespace root  4096 Oct 16 07:26 data
+drwxrwxrwx+ 4 codespace root  4096 Oct 16 07:26 docs
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:26 evidence
+-rw-rw-rw-  1 codespace root   133 Oct 16 07:26 requirements.txt
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:26 src
+@arthurvlrs05-rgb ➜ /workspaces/esilv-marketpulse-g06-t03 (arthur-vanlaeres) $ git add /workspaces/esilv-marketpulse-g06-t03/evidence/Arthur_Vanlaeres_Td2
+@arthurvlrs05-rgb ➜ /workspaces/esilv-marketpulse-g06-t03 (arthur-vanlaeres) $ git commit -m
+error: switch `m' requires a value
+@arthurvlrs05-rgb ➜ /workspaces/esilv-marketpulse-g06-t03 (arthur-vanlaeres) $ git commit -m "Linux Basics"
+[arthur-vanlaeres aac16cb] Linux Basics
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 evidence/Arthur_Vanlaeres_Td2
+@arthurvlrs05-rgb ➜ /workspaces/esilv-marketpulse-g06-t03 (arthur-vanlaeres) $ git push
+fatal: The current branch arthur-vanlaeres has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin arthur-vanlaeres
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+@arthurvlrs05-rgb ➜ /workspaces/esilv-marketpulse-g06-t03 (arthur-vanlaeres) $ git push --set-upstream origin arthur-vanlaeres
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 1.25 KiB | 1.25 MiB/s, done.
+Total 7 (delta 2), reused 2 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'arthur-vanlaeres' on GitHub by visiting:
+remote:      https://github.com/hasaddd20/esilv-marketpulse-g06-t03/pull/new/arthur-vanlaeres
+@arthurvlrs05-rgb ➜ /workspaces/esilv-marketpulse-g06-t03 (arthur-vanlaeres) $ cd data/
+@arthurvlrs05-rgb ➜ /workspaces/esilv-marketpulse-g06-t03/data (arthur-vanlaeres) $ pwd && ls
+/workspaces/esilv-marketpulse-g06-t03/data
+sample
+@arthurvlrs05-rgb ➜ /workspaces/esilv-marketpulse-g06-t03/data (arthur-vanlaeres) $ cd sample
+@arthurvlrs05-rgb ➜ /workspaces/esilv-marketpulse-g06-t03/data/sample (arthur-vanlaeres) $ ls
+bloomberg_reference_expected.json  bloomberg_reference_sample.json  instruments.json  prices.csv
+@arthurvlrs05-rgb ➜ /workspaces/esilv-marketpulse-g06-t03/data/sample (arthur-vanlaeres) $ cd ../..
+@arthurvlrs05-rgb ➜ /workspaces/esilv-marketpulse-g06-t03 (arthur-vanlaeres) $ pwd
+/workspaces/esilv-marketpulse-g06-t03
+@arthurvlrs05-rgb ➜ /workspaces/esilv-marketpulse-g06-t03 (arthur-vanlaeres) $ 
+remote: 
+To https://github.com/hasaddd20/esilv-marketpulse-g06-t03
+ * [new branch]      arthur-vanlaeres -> arthur-vanlaeres
+branch 'arthur-vanlaeres' set up to track 'origin/arthur-vanlaeres'.
