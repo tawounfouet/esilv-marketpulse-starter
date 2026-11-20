@@ -49,6 +49,7 @@ def main():
     print(f"{benchmark['ticker']} - {benchmark['name']}")
     print(f"Last level: {benchmark_latest['close']}")
     print()
+    
     print(f"Period: {LOOKBACK_LABEL}")
     print(f"Interval: {INTERVAL_LABEL}")
     print()
