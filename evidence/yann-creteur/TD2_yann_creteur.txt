@@ -1,0 +1,55 @@
+@yann160905 ➜ /workspaces/esilv-marketpulse-g06-t02 (yann-creteur) $ git branch 
+  main
+* yann-creteur
+
+@yann160905 ➜ /workspaces/esilv-marketpulse-g06-t02 (yann-creteur) $ pwd
+/workspaces/esilv-marketpulse-g06-t02
+
+@yann160905 ➜ /workspaces/esilv-marketpulse-g06-t02 (yann-creteur) $ ls
+CONTRIBUTING.md  README.md  TEAM_TEMPLATE.md  config  data  docs  evidence  requirements.txt  src
+
+@yann160905 ➜ /workspaces/esilv-marketpulse-g06-t02 (yann-creteur) $ la
+.git  .gitignore  CONTRIBUTING.md  README.md  TEAM_TEMPLATE.md  config  data  docs  evidence  requirements.txt  src
+
+@yann160905 ➜ /workspaces/esilv-marketpulse-g06-t02 (yann-creteur) $ ls -la
+total 60
+drwxrwxrwx+ 8 codespace root  4096 Oct 16 07:27 .
+drwxr-xrwx+ 5 codespace root  4096 Oct 16 07:27 ..
+drwxrwxrwx+ 8 codespace root  4096 Oct 16 08:42 .git
+-rw-rw-rw-  1 codespace root   178 Oct 16 07:27 .gitignore
+-rw-rw-rw-  1 codespace root  2943 Oct 16 07:27 CONTRIBUTING.md
+-rw-rw-rw-  1 codespace root 10270 Oct 16 07:27 README.md
+-rw-rw-rw-  1 codespace root  1446 Oct 16 07:27 TEAM_TEMPLATE.md
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:27 config
+drwxrwxrwx+ 3 codespace root  4096 Oct 16 07:27 data
+drwxrwxrwx+ 4 codespace root  4096 Oct 16 07:27 docs
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 08:49 evidence
+-rw-rw-rw-  1 codespace root   133 Oct 16 07:27 requirements.txt
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:27 src
+
+@yann160905 ➜ /workspaces/esilv-marketpulse-g06-t02 (yann-creteur) $ ls -l
+total 44
+-rw-rw-rw-  1 codespace root  2943 Oct 16 07:27 CONTRIBUTING.md
+-rw-rw-rw-  1 codespace root 10270 Oct 16 07:27 README.md
+-rw-rw-rw-  1 codespace root  1446 Oct 16 07:27 TEAM_TEMPLATE.md
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:27 config
+drwxrwxrwx+ 3 codespace root  4096 Oct 16 07:27 data
+drwxrwxrwx+ 4 codespace root  4096 Oct 16 07:27 docs
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 08:49 evidence
+-rw-rw-rw-  1 codespace root   133 Oct 16 07:27 requirements.txt
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:27 src
+
+@yann160905 ➜ /workspaces/esilv-marketpulse-g06-t02 (yann-creteur) $ cd data
+
+@yann160905 ➜ /workspaces/esilv-marketpulse-g06-t02/data (yann-creteur) $ pwd && ls
+/workspaces/esilv-marketpulse-g06-t02/data
+
+@yann160905 ➜ /workspaces/esilv-marketpulse-g06-t02/data (yann-creteur) $ cd sample
+
+@yann160905 ➜ /workspaces/esilv-marketpulse-g06-t02/data/sample (yann-creteur) $ ls
+bloomberg_reference_expected.json  bloomberg_reference_sample.json  instruments.json  prices.csv
+
+@yann160905 ➜ /workspaces/esilv-marketpulse-g06-t02/data/sample (yann-creteur) $ cd ../..
+
+@yann160905 ➜ /workspaces/esilv-marketpulse-g06-t02 (yann-creteur) $ pwd
+/workspaces/esilv-marketpulse-g06-t02
