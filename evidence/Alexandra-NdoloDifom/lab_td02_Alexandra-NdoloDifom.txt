@@ -1,0 +1,63 @@
+Git branch: 
+@alex-dif ➜ /workspaces/esilv-marketpulse-g06-t02 (Alexandra-NdoloDifom) $ git branch 
+* Alexandra-NdoloDifom
+  main
+pwd: 
+@alex-dif ➜ /workspaces/esilv-marketpulse-g06-t02 (Alexandra-NdoloDifom) $ pwd
+/workspaces/esilv-marketpulse-g06-t02
+
+ls: 
+@alex-dif ➜ /workspaces/esilv-marketpulse-g06-t02 (Alexandra-NdoloDifom) $ ls
+CONTRIBUTING.md  README.md  TEAM_TEMPLATE.md  config  data  docs  evidence  requirements.txt  src
+
+ls -la: 
+@alex-dif ➜ /workspaces/esilv-marketpulse-g06-t02 (Alexandra-NdoloDifom) $ ls -la
+total 60
+drwxrwxrwx+ 8 codespace root  4096 Oct 16 07:26 .
+drwxr-xrwx+ 5 codespace root  4096 Oct 16 07:27 ..
+drwxrwxrwx+ 8 codespace root  4096 Oct 16 08:40 .git
+-rw-rw-rw-  1 codespace root   178 Oct 16 07:26 .gitignore
+-rw-rw-rw-  1 codespace root  2943 Oct 16 07:26 CONTRIBUTING.md
+-rw-rw-rw-  1 codespace root 10270 Oct 16 07:26 README.md
+-rw-rw-rw-  1 codespace root  1446 Oct 16 07:26 TEAM_TEMPLATE.md
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:26 config
+drwxrwxrwx+ 3 codespace root  4096 Oct 16 07:26 data
+drwxrwxrwx+ 4 codespace root  4096 Oct 16 07:26 docs
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 08:54 evidence
+-rw-rw-rw-  1 codespace root   133 Oct 16 07:26 requirements.txt
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:26 src
+
+ls -l: 
+@alex-dif ➜ /workspaces/esilv-marketpulse-g06-t02 (Alexandra-NdoloDifom) $ ls -l 
+total 44
+-rw-rw-rw-  1 codespace root  2943 Oct 16 07:26 CONTRIBUTING.md
+-rw-rw-rw-  1 codespace root 10270 Oct 16 07:26 README.md
+-rw-rw-rw-  1 codespace root  1446 Oct 16 07:26 TEAM_TEMPLATE.md
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:26 config
+drwxrwxrwx+ 3 codespace root  4096 Oct 16 07:26 data
+drwxrwxrwx+ 4 codespace root  4096 Oct 16 07:26 docs
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 08:54 evidence
+-rw-rw-rw-  1 codespace root   133 Oct 16 07:26 requirements.txt
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:26 src
+
+cd data:
+@alex-dif ➜ /workspaces/esilv-marketpulse-g06-t02 (Alexandra-NdoloDifom) $ cd data 
+/workspaces/esilv-marketpulse-g06-t02/data
+pwd && ls:
+@alex-dif ➜ /workspaces/esilv-marketpulse-g06-t02/data (Alexandra-NdoloDifom) $ pwd && ls 
+
+data: 
+/workspaces/esilv-marketpulse-g06-t02/data
+sample: 
+
+cd sample: 
+@alex-dif ➜ /workspaces/esilv-marketpulse-g06-t02/data (Alexandra-NdoloDifom) $ cd sample
+
+ls: 
+@alex-dif ➜ /workspaces/esilv-marketpulse-g06-t02/data/sample (Alexandra-NdoloDifom) $ ls
+bloomberg_reference_expected.json  bloomberg_reference_sample.json  instruments.json  prices.csv
+
+cd ../..
+@alex-dif ➜ /workspaces/esilv-marketpulse-g06-t02/data/sample (Alexandra-NdoloDifom) $ cd ../..
+@alex-dif ➜ /workspaces/esilv-marketpulse-g06-t02 (Alexandra-NdoloDifom) $ pwd
+/workspaces/esilv-marketpulse-g06-t02

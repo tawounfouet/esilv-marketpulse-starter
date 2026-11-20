@@ -40,6 +40,7 @@ def main():
     benchmark_latest = benchmark_prices[-1]
 
     print("=== MarketPulse ===")
+    print("Data source: Local CSV")  
     print()
     print("Instrument")
     print(f"{instrument['ticker']} - {instrument['name']}")
@@ -50,6 +51,7 @@ def main():
     print(f"Last level: {benchmark_latest['close']}")
     print(f"Benchmark: {benchmark['market']}")
     print()
+    
     print(f"Period: {LOOKBACK_LABEL}")
     print(f"Interval: {INTERVAL_LABEL}")
     print()

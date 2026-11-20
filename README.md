@@ -185,6 +185,12 @@ normalize once
 calculate once
 present many times
 ```
+## run market place
+
+run the application from the project root:
+
+```bash
+python src/main.py
 
 ## Canonical runtime
 
