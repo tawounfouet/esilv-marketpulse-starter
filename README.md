@@ -188,7 +188,7 @@ present many times
 
 ## Canonical runtime
 
-Terminal:
+Terminal :
 
 ```bash
 python src/main.py
