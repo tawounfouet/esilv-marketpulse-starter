@@ -1,0 +1,385 @@
+{
+  "sample_kind": "expected_canonical_result",
+  "source_fixture": "data/sample/bloomberg_reference_sample.json",
+  "access_mode": "approved_sample",
+  "rows": [
+    {
+      "date": "2026-09-01",
+      "ticker": "AAPL",
+      "open": 249.2,
+      "high": 251.5,
+      "low": 248,
+      "close": 250,
+      "volume": 38000000
+    },
+    {
+      "date": "2026-09-02",
+      "ticker": "AAPL",
+      "open": 250.8,
+      "high": 252.8,
+      "low": 249.6,
+      "close": 251.3,
+      "volume": 39500000
+    },
+    {
+      "date": "2026-09-03",
+      "ticker": "AAPL",
+      "open": 249.6,
+      "high": 251.3,
+      "low": 248.4,
+      "close": 249.8,
+      "volume": 41000000
+    },
+    {
+      "date": "2026-09-04",
+      "ticker": "AAPL",
+      "open": 251.3,
+      "high": 253.6,
+      "low": 250.1,
+      "close": 252.1,
+      "volume": 42500000
+    },
+    {
+      "date": "2026-09-08",
+      "ticker": "AAPL",
+      "open": 251.9,
+      "high": 253.9,
+      "low": 250.7,
+      "close": 252.4,
+      "volume": 44000000
+    },
+    {
+      "date": "2026-09-09",
+      "ticker": "AAPL",
+      "open": 254,
+      "high": 255.7,
+      "low": 252.8,
+      "close": 254.2,
+      "volume": 38000000
+    },
+    {
+      "date": "2026-09-10",
+      "ticker": "AAPL",
+      "open": 254.3,
+      "high": 256.6,
+      "low": 253.1,
+      "close": 255.1,
+      "volume": 39500000
+    },
+    {
+      "date": "2026-09-11",
+      "ticker": "AAPL",
+      "open": 254.2,
+      "high": 256.2,
+      "low": 253,
+      "close": 254.7,
+      "volume": 41000000
+    },
+    {
+      "date": "2026-09-14",
+      "ticker": "AAPL",
+      "open": 256.6,
+      "high": 258.3,
+      "low": 255.4,
+      "close": 256.8,
+      "volume": 42500000
+    },
+    {
+      "date": "2026-09-15",
+      "ticker": "AAPL",
+      "open": 257.2,
+      "high": 259.5,
+      "low": 256,
+      "close": 258,
+      "volume": 44000000
+    },
+    {
+      "date": "2026-09-16",
+      "ticker": "AAPL",
+      "open": 256.7,
+      "high": 258.7,
+      "low": 255.5,
+      "close": 257.2,
+      "volume": 38000000
+    },
+    {
+      "date": "2026-09-17",
+      "ticker": "AAPL",
+      "open": 259.2,
+      "high": 260.9,
+      "low": 258,
+      "close": 259.4,
+      "volume": 39500000
+    },
+    {
+      "date": "2026-09-18",
+      "ticker": "AAPL",
+      "open": 259.3,
+      "high": 261.6,
+      "low": 258.1,
+      "close": 260.1,
+      "volume": 41000000
+    },
+    {
+      "date": "2026-09-21",
+      "ticker": "AAPL",
+      "open": 259.1,
+      "high": 261.1,
+      "low": 257.9,
+      "close": 259.6,
+      "volume": 42500000
+    },
+    {
+      "date": "2026-09-22",
+      "ticker": "AAPL",
+      "open": 261.1,
+      "high": 262.8,
+      "low": 259.9,
+      "close": 261.3,
+      "volume": 44000000
+    },
+    {
+      "date": "2026-09-23",
+      "ticker": "AAPL",
+      "open": 261.2,
+      "high": 263.5,
+      "low": 260,
+      "close": 262,
+      "volume": 38000000
+    },
+    {
+      "date": "2026-09-24",
+      "ticker": "AAPL",
+      "open": 263,
+      "high": 265,
+      "low": 261.8,
+      "close": 263.5,
+      "volume": 39500000
+    },
+    {
+      "date": "2026-09-25",
+      "ticker": "AAPL",
+      "open": 262.6,
+      "high": 264.3,
+      "low": 261.4,
+      "close": 262.8,
+      "volume": 41000000
+    },
+    {
+      "date": "2026-09-28",
+      "ticker": "AAPL",
+      "open": 263.3,
+      "high": 265.6,
+      "low": 262.1,
+      "close": 264.1,
+      "volume": 42500000
+    },
+    {
+      "date": "2026-09-29",
+      "ticker": "AAPL",
+      "open": 264.5,
+      "high": 266.5,
+      "low": 263.3,
+      "close": 265,
+      "volume": 44000000
+    },
+    {
+      "date": "2026-09-30",
+      "ticker": "AAPL",
+      "open": 266,
+      "high": 267.7,
+      "low": 264.8,
+      "close": 266.2,
+      "volume": 38000000
+    },
+    {
+      "date": "2026-09-01",
+      "ticker": "SP500",
+      "open": 6592,
+      "high": 6615,
+      "low": 6580,
+      "close": 6600,
+      "volume": 0
+    },
+    {
+      "date": "2026-09-02",
+      "ticker": "SP500",
+      "open": 6607,
+      "high": 6627,
+      "low": 6595,
+      "close": 6612,
+      "volume": 0
+    },
+    {
+      "date": "2026-09-03",
+      "ticker": "SP500",
+      "open": 6596,
+      "high": 6613,
+      "low": 6584,
+      "close": 6598,
+      "volume": 0
+    },
+    {
+      "date": "2026-09-04",
+      "ticker": "SP500",
+      "open": 6612,
+      "high": 6635,
+      "low": 6600,
+      "close": 6620,
+      "volume": 0
+    },
+    {
+      "date": "2026-09-08",
+      "ticker": "SP500",
+      "open": 6623,
+      "high": 6643,
+      "low": 6611,
+      "close": 6628,
+      "volume": 0
+    },
+    {
+      "date": "2026-09-09",
+      "ticker": "SP500",
+      "open": 6640,
+      "high": 6657,
+      "low": 6628,
+      "close": 6642,
+      "volume": 0
+    },
+    {
+      "date": "2026-09-10",
+      "ticker": "SP500",
+      "open": 6642,
+      "high": 6665,
+      "low": 6630,
+      "close": 6650,
+      "volume": 0
+    },
+    {
+      "date": "2026-09-11",
+      "ticker": "SP500",
+      "open": 6642,
+      "high": 6662,
+      "low": 6630,
+      "close": 6647,
+      "volume": 0
+    },
+    {
+      "date": "2026-09-14",
+      "ticker": "SP500",
+      "open": 6663,
+      "high": 6680,
+      "low": 6651,
+      "close": 6665,
+      "volume": 0
+    },
+    {
+      "date": "2026-09-15",
+      "ticker": "SP500",
+      "open": 6664,
+      "high": 6687,
+      "low": 6652,
+      "close": 6672,
+      "volume": 0
+    },
+    {
+      "date": "2026-09-16",
+      "ticker": "SP500",
+      "open": 6663,
+      "high": 6683,
+      "low": 6651,
+      "close": 6668,
+      "volume": 0
+    },
+    {
+      "date": "2026-09-17",
+      "ticker": "SP500",
+      "open": 6683,
+      "high": 6700,
+      "low": 6671,
+      "close": 6685,
+      "volume": 0
+    },
+    {
+      "date": "2026-09-18",
+      "ticker": "SP500",
+      "open": 6684,
+      "high": 6707,
+      "low": 6672,
+      "close": 6692,
+      "volume": 0
+    },
+    {
+      "date": "2026-09-21",
+      "ticker": "SP500",
+      "open": 6683,
+      "high": 6703,
+      "low": 6671,
+      "close": 6688,
+      "volume": 0
+    },
+    {
+      "date": "2026-09-22",
+      "ticker": "SP500",
+      "open": 6703,
+      "high": 6720,
+      "low": 6691,
+      "close": 6705,
+      "volume": 0
+    },
+    {
+      "date": "2026-09-23",
+      "ticker": "SP500",
+      "open": 6704,
+      "high": 6727,
+      "low": 6692,
+      "close": 6712,
+      "volume": 0
+    },
+    {
+      "date": "2026-09-24",
+      "ticker": "SP500",
+      "open": 6715,
+      "high": 6735,
+      "low": 6703,
+      "close": 6720,
+      "volume": 0
+    },
+    {
+      "date": "2026-09-25",
+      "ticker": "SP500",
+      "open": 6713,
+      "high": 6730,
+      "low": 6701,
+      "close": 6715,
+      "volume": 0
+    },
+    {
+      "date": "2026-09-28",
+      "ticker": "SP500",
+      "open": 6720,
+      "high": 6743,
+      "low": 6708,
+      "close": 6728,
+      "volume": 0
+    },
+    {
+      "date": "2026-09-29",
+      "ticker": "SP500",
+      "open": 6729,
+      "high": 6749,
+      "low": 6717,
+      "close": 6734,
+      "volume": 0
+    },
+    {
+      "date": "2026-09-30",
+      "ticker": "SP500",
+      "open": 6740,
+      "high": 6757,
+      "low": 6728,
+      "close": 6742,
+      "volume": 0
+    }
+  ]
+}
