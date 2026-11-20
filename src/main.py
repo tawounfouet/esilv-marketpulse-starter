@@ -51,6 +51,7 @@ def main():
     print(f"Last level: {benchmark_latest['close']}")
     print(f"Benchmark: {benchmark['market']}")
     print()
+    
     print(f"Period: {LOOKBACK_LABEL}")
     print(f"Interval: {INTERVAL_LABEL}")
     print()
