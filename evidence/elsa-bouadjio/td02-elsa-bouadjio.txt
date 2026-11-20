@@ -1,0 +1,86 @@
+@e1saaa ➜ /workspaces/G06-T04 (main) $ git checkout -b elsa-bouadjio  
+Switched to a new branch 'elsa-bouadjio'
+
+
+@e1saaa ➜ /workspaces/G06-T04 (elsa-bouadjio) $ pwd
+/workspaces/G06-T04
+
+
+@e1saaa ➜ /workspaces/G06-T04 (elsa-bouadjio) $ ls
+CONTRIBUTING.md  TEAM_TEMPLATE.md  data  evidence          src
+README.md        config            docs  requirements.txt
+
+
+@e1saaa ➜ /workspaces/G06-T04 (elsa-bouadjio) $ ls -la
+total 60
+drwxrwxrwx+ 8 codespace root  4096 Oct 16 07:35 .
+drwxr-xrwx+ 5 codespace root  4096 Oct 16 07:35 ..
+drwxrwxrwx+ 8 codespace root  4096 Oct 16 08:42 .git
+-rw-rw-rw-  1 codespace root   178 Oct 16 07:35 .gitignore
+-rw-rw-rw-  1 codespace root  2943 Oct 16 07:35 CONTRIBUTING.md
+-rw-rw-rw-  1 codespace root 10270 Oct 16 07:35 README.md
+-rw-rw-rw-  1 codespace root  1446 Oct 16 07:35 TEAM_TEMPLATE.md
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:35 config
+drwxrwxrwx+ 3 codespace root  4096 Oct 16 07:35 data
+drwxrwxrwx+ 4 codespace root  4096 Oct 16 07:35 docs
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 08:49 evidence
+-rw-rw-rw-  1 codespace root   133 Oct 16 07:35 requirements.txt
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:35 src
+
+
+@e1saaa ➜ /workspaces/G06-T04 (elsa-bouadjio) $ ls -l
+total 44
+-rw-rw-rw-  1 codespace root  2943 Oct 16 07:35 CONTRIBUTING.md
+-rw-rw-rw-  1 codespace root 10270 Oct 16 07:35 README.md
+-rw-rw-rw-  1 codespace root  1446 Oct 16 07:35 TEAM_TEMPLATE.md
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:35 config
+drwxrwxrwx+ 3 codespace root  4096 Oct 16 07:35 data
+drwxrwxrwx+ 4 codespace root  4096 Oct 16 07:35 docs
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 08:49 evidence
+-rw-rw-rw-  1 codespace root   133 Oct 16 07:35 requirements.txt
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:35 src
+
+@e1saaa ➜ /workspaces/G06-T04 (elsa-bouadjio) $ git add /workspaces/G06-T04/evidence/td02-elsa-bouadjio.txt
+
+
+
+@e1saaa ➜ /workspaces/G06-T04 (elsa-bouadjio) $ git push
+fatal: The current branch elsa-bouadjio has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin elsa-bouadjio
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+@e1saaa ➜ /workspaces/G06-T04 (elsa-bouadjio) $     git push --set-upstream origin elsa-bouadjio
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 726 bytes | 726.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'elsa-bouadjio' on GitHub by visiting:
+remote:      https://github.com/eminboghos/G06-T04/pull/new/elsa-bouadjio
+remote: 
+To https://github.com/eminboghos/G06-T04
+ * [new branch]      elsa-bouadjio -> elsa-bouadjio
+branch 'elsa-bouadjio' set up to track 'origin/elsa-bouadjio'.
+
+
+
+LINUX NAVIGATION 
+@e1saaa ➜ /workspaces/G06-T04 (elsa-bouadjio) $ cd data
+@e1saaa ➜ /workspaces/G06-T04/data (elsa-bouadjio) $ pwd && ls
+/workspaces/G06-T04/data
+sample
+@e1saaa ➜ /workspaces/G06-T04/data (elsa-bouadjio) $ cd sample
+@e1saaa ➜ /workspaces/G06-T04/data/sample (elsa-bouadjio) $ ls
+bloomberg_reference_expected.json  instruments.json
+bloomberg_reference_sample.json    prices.csv
+@e1saaa ➜ /workspaces/G06-T04/data/sample (elsa-bouadjio) $ cd ../..
+@e1saaa ➜ /workspaces/G06-T04 (elsa-bouadjio) $ pwd
+/workspaces/G06-T04
