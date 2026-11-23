@@ -39,7 +39,7 @@ touch TD3_linux_basics.sh
 # 9 
 cat data/sample/instruments.json
 
-# @yann160905 ➜ /workspaces/esilv-marketpulse-g06-t02 (yann-creteur) $ cat data/sample/instruments.json
+# @rayzzen07 ➜ /workspaces/esilv-marketpulse-g05-t07 (Dan-Cohen-Scali) $ cat data/sample/instruments.json
 # {
 #   "instrument": {
 #     "ticker": "AAPL",
@@ -58,7 +58,7 @@ cat data/sample/instruments.json
 # 10
 head data/sample/prices.csv
 
-# @yann160905 ➜ /workspaces/esilv-marketpulse-g06-t02 (yann-creteur) $ head data/sample/prices.csv 
+# @rayzzen07 ➜ /workspaces/esilv-marketpulse-g06-t02 (yann-creteur) $ head data/sample/prices.csv 
 # date,ticker,open,high,low,close,volume
 # 2026-09-01,AAPL,249.20,251.50,248.00,250.00,38000000
 # 2026-09-01,SP500,6592.00,6615.00,6580.00,6600.00,0
@@ -73,7 +73,7 @@ head data/sample/prices.csv
 # 11 
 grep AAPL data/sample/prices.csv
 
-# @yann160905 ➜ /workspaces/esilv-marketpulse-g06-t02 (yann-creteur) $ grep AAPL data/sample/prices.csv 
+# @rayzzen07 ➜ /workspaces/esilv-marketpulse-g06-t02 (yann-creteur) $ grep AAPL data/sample/prices.csv 
 # 2026-09-01,AAPL,249.20,251.50,248.00,250.00,38000000
 # 2026-09-02,AAPL,250.80,252.80,249.60,251.30,39500000
 # 2026-09-03,AAPL,249.60,251.30,248.40,249.80,41000000
