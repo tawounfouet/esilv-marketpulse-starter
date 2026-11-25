@@ -1,6 +1,14 @@
 from pathlib import Path
 import csv
 import json
+from analytics import (
+    align_prices,
+    period_return,
+    base_100,
+    relative_performance
+)
+
+from providers.yahoo_provider import load_yahoo_prices
 
 
 DATA_DIR = Path("data/sample")
@@ -35,18 +43,19 @@ def filter_prices(prices, ticker):
 
 def main():
     instruments = load_instruments()
-    prices = load_prices()
+
 
     instrument = instruments["instrument"]
     benchmark = instruments["benchmark"]
 
-    instrument_prices = filter_prices(prices, instrument["ticker"])
-    benchmark_prices = filter_prices(prices, benchmark["ticker"])
+    instrument_prices = load_yahoo_prices(instrument["ticker"])
+    benchmark_prices = load_yahoo_prices(benchmark["ticker"])
 
     instrument_latest = instrument_prices[-1]
     benchmark_latest = benchmark_prices[-1]
 
     print("=== MarketPulse ===")
+    print("Provider: Yahoo Finance")
     print()
     print("Instrument")
     print(f"{instrument['ticker']} - {instrument['name']}")
@@ -66,6 +75,16 @@ def main():
     print(f"\n{benchmark['ticker']}: {len(benchmark_prices)}")
     print(f"First date: {get_first_date(benchmark_prices)}")
     print(f"Last date: {get_last_date(benchmark_prices)}")
+    dates, i, b = align_prices(instrument_prices, benchmark_prices)
+
+    print("\n=== Performance Comparison ===")
+    print(f"Common observations: {len(dates)}")
+    print(f"Common period: {dates[0]} to {dates[-1]}")
+    print(f"Instrument return: {period_return(i):.2%}")
+    print(f"Benchmark return: {period_return(b):.2%}")
+    print(f"Relative performance: {relative_performance(i, b)*100:.2f} pp")
+    print(f"Instrument base 100: {base_100(i)[-1]:.2f}")
+    print(f"Benchmark base 100: {base_100(b)[-1]:.2f}")
 
 
 if __name__ == "__main__":
