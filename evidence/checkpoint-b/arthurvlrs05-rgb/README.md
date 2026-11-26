@@ -24,11 +24,11 @@ The application was run against Yahoo Finance. Both symbols returned 23 observat
 
 ## Evidence status
 
-The required screenshots are not included yet:
+Evidence files:
 
-- `01_pull_request.png`: pending a real capture of PR #7 with its status and branches visible.
-- `02_code_review.png`: no existing submitted review by Arthur was found; this proof remains to be completed.
+- `01_pull_request.png`: real capture of the live GitHub PR #7 page. It shows the title, Open status, `arthur-vanlaeres` source branch, and `main` target branch.
+- `02_code_review.png`: no submitted review by Arthur was found on PRs #1–#7. PR #6 had a review request for Arthur, but no review was submitted; this proof remains to be completed.
 - `03_yahoo_market_data.png`: pending a real capture of the Yahoo Finance retrieval output.
 - `04_instrument_benchmark.png`: pending a real capture of the comparison output.
 
-No screenshot or provider result has been fabricated, and no review comment was published for this evidence check.
+The program was run with live Yahoo Finance data, but no terminal screenshot was saved for that run. No screenshot or provider result has been fabricated, and no review comment was published for this evidence check.
