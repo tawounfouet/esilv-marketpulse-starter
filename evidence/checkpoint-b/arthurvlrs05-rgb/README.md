@@ -11,7 +11,7 @@
 - Work: connected Yahoo Finance acquisition to the TD07 analytics in `src/main.py`.
 - Reused Hamza Asadullah's analytics implementation from PR #5 and preserved the original authorship in the Git history.
 - Reused Hugo Dussart's Yahoo Finance provider from PR #6 without rewriting it.
-- Pull Request: to be added after the branch is pushed.
+- Pull Request: https://github.com/hasaddd20/esilv-marketpulse-g06-t03/pull/7 (open, targeting `main`).
 - Reviewed Pull Request: pending a meaningful review by the student.
 
 ## Work completed
