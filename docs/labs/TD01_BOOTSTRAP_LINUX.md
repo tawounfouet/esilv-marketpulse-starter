@@ -206,7 +206,7 @@ MarketPulse Team : T02
 One team member creates the fork from:
 
 ```text
-tawounfouet/esilv-marketpulse
+tawounfouet/esilv-marketpulse-starter
 ```
 
 Only one team fork is required.
@@ -253,7 +253,7 @@ Complete at least:
 
 - TD group;
 - MarketPulse team number;
-- full name of each member;
+- GitHub username of each member (without publishing legal names);
 - GitHub username of each member;
 - team repository name.
 
@@ -719,7 +719,7 @@ evidence/checkpoint-a/<github-username>/01_terminal_python.png
 
 | Attribute | Specification |
 |---|---|
-| **Checkpoint** | Checkpoint A — Foundations (25% weight) |
+| **Checkpoint** | Checkpoint A - Foundations (suggested weight only, pending teaching-team approval) |
 | **Filename** | `01_terminal_python.png` |
 | **Target Directory** | `evidence/checkpoint-a/<github-username>/` |
 | **Status** | Required for Checkpoint A |
