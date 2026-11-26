@@ -1,0 +1,214 @@
+=== MarketPulse ===
+
+Instrument
+AAPL - Apple Inc.
+Observations : 21
+First date   : 2026-09-01
+Last date    : 2026-09-30
+First close  : 250.00 USD
+Last close   : 266.20 USD
+
+Benchmark
+SP500 - S&P 500
+Observations : 21
+First date   : 2026-09-01
+Last date    : 2026-09-30
+First close  : 6600.00 USD
+Last close   : 6742.00 USD
+
+Period: 1 month
+Interval: Daily
+Path                                                                                
+----                                                                                
+C:\Users\hduss\Hugo perso\Bureau new\ESILV\IF A4\git linux\esilv-marketpulse-g06-t03
+
+PSPath            : Microsoft.PowerShell.Core\FileSystem::C:\Users\hduss\Hugo perso\Bureau new\ESILV\IF A4\git 
+                    linux\esilv-marketpulse-g06-t03\config
+PSParentPath      : Microsoft.PowerShell.Core\FileSystem::C:\Users\hduss\Hugo perso\Bureau new\ESILV\IF A4\git 
+                    linux\esilv-marketpulse-g06-t03
+PSChildName       : config
+PSDrive           : C
+PSProvider        : Microsoft.PowerShell.Core\FileSystem
+PSIsContainer     : True
+Name              : config
+FullName          : C:\Users\hduss\Hugo perso\Bureau new\ESILV\IF A4\git linux\esilv-marketpulse-g06-t03\config
+Parent            : esilv-marketpulse-g06-t03
+Exists            : True
+Root              : C:\
+Extension         : 
+CreationTime      : 13/11/2026 15:47:51
+CreationTimeUtc   : 13/11/2026 14:47:51
+LastAccessTime    : 13/11/2026 15:47:53
+LastAccessTimeUtc : 13/11/2026 14:47:53
+LastWriteTime     : 13/11/2026 15:47:51
+LastWriteTimeUtc  : 13/11/2026 14:47:51
+Attributes        : Directory
+Mode              : d-----
+BaseName          : config
+Target            : {}
+LinkType          : 
+
+
+PSPath            : Microsoft.PowerShell.Core\FileSystem::C:\Users\hduss\Hugo perso\Bureau new\ESILV\IF A4\git 
+                    linux\esilv-marketpulse-g06-t03\data
+PSParentPath      : Microsoft.PowerShell.Core\FileSystem::C:\Users\hduss\Hugo perso\Bureau new\ESILV\IF A4\git 
+                    linux\esilv-marketpulse-g06-t03
+PSChildName       : data
+PSDrive           : C
+PSProvider        : Microsoft.PowerShell.Core\FileSystem
+PSIsContainer     : True
+Name              : data
+FullName          : C:\Users\hduss\Hugo perso\Bureau new\ESILV\IF A4\git linux\esilv-marketpulse-g06-t03\data
+Parent            : esilv-marketpulse-g06-t03
+Exists            : True
+Root              : C:\
+Extension         : 
+CreationTime      : 13/11/2026 15:47:51
+CreationTimeUtc   : 13/11/2026 14:47:51
+LastAccessTime    : 13/11/2026 15:47:53
+LastAccessTimeUtc : 13/11/2026 14:47:53
+LastWriteTime     : 13/11/2026 15:47:51
+LastWriteTimeUtc  : 13/11/2026 14:47:51
+Attributes        : Directory
+Mode              : d-----
+BaseName          : data
+Target            : {}
+LinkType          : 
+
+
+PSPath            : Microsoft.PowerShell.Core\FileSystem::C:\Users\hduss\Hugo perso\Bureau new\ESILV\IF A4\git 
+                    linux\esilv-marketpulse-g06-t03\docs
+PSParentPath      : Microsoft.PowerShell.Core\FileSystem::C:\Users\hduss\Hugo perso\Bureau new\ESILV\IF A4\git 
+                    linux\esilv-marketpulse-g06-t03
+PSChildName       : docs
+PSDrive           : C
+PSProvider        : Microsoft.PowerShell.Core\FileSystem
+PSIsContainer     : True
+Name              : docs
+FullName          : C:\Users\hduss\Hugo perso\Bureau new\ESILV\IF A4\git linux\esilv-marketpulse-g06-t03\docs
+Parent            : esilv-marketpulse-g06-t03
+Exists            : True
+Root              : C:\
+Extension         : 
+CreationTime      : 13/11/2026 15:47:51
+CreationTimeUtc   : 13/11/2026 14:47:51
+LastAccessTime    : 13/11/2026 15:47:53
+LastAccessTimeUtc : 13/11/2026 14:47:53
+LastWriteTime     : 13/11/2026 15:47:51
+LastWriteTimeUtc  : 13/11/2026 14:47:51
+Attributes        : Directory
+Mode              : d-----
+BaseName          : docs
+Target            : {}
+LinkType          : 
+
+
+PSPath            : Microsoft.PowerShell.Core\FileSystem::C:\Users\hduss\Hugo perso\Bureau new\ESILV\IF A4\git 
+                    linux\esilv-marketpulse-g06-t03\evidence
+PSParentPath      : Microsoft.PowerShell.Core\FileSystem::C:\Users\hduss\Hugo perso\Bureau new\ESILV\IF A4\git 
+                    linux\esilv-marketpulse-g06-t03
+PSChildName       : evidence
+PSDrive           : C
+PSProvider        : Microsoft.PowerShell.Core\FileSystem
+PSIsContainer     : True
+Name              : evidence
+FullName          : C:\Users\hduss\Hugo perso\Bureau new\ESILV\IF A4\git linux\esilv-marketpulse-g06-t03\evidence
+Parent            : esilv-marketpulse-g06-t03
+Exists            : True
+Root              : C:\
+Extension         : 
+CreationTime      : 13/11/2026 15:47:51
+CreationTimeUtc   : 13/11/2026 14:47:51
+LastAccessTime    : 13/11/2026 15:47:51
+LastAccessTimeUtc : 13/11/2026 14:47:51
+LastWriteTime     : 13/11/2026 15:47:51
+LastWriteTimeUtc  : 13/11/2026 14:47:51
+Attributes        : Directory
+Mode              : d-----
+BaseName          : evidence
+Target            : {}
+LinkType          : 
+
+
+PSPath            : Microsoft.PowerShell.Core\FileSystem::C:\Users\hduss\Hugo perso\Bureau new\ESILV\IF A4\git 
+                    linux\esilv-marketpulse-g06-t03\notebooks
+PSParentPath      : Microsoft.PowerShell.Core\FileSystem::C:\Users\hduss\Hugo perso\Bureau new\ESILV\IF A4\git 
+                    linux\esilv-marketpulse-g06-t03
+PSChildName       : notebooks
+PSDrive           : C
+PSProvider        : Microsoft.PowerShell.Core\FileSystem
+PSIsContainer     : True
+Name              : notebooks
+FullName          : C:\Users\hduss\Hugo perso\Bureau new\ESILV\IF A4\git linux\esilv-marketpulse-g06-t03\notebooks
+Parent            : esilv-marketpulse-g06-t03
+Exists            : True
+Root              : C:\
+Extension         : 
+CreationTime      : 13/11/2026 15:47:51
+CreationTimeUtc   : 13/11/2026 14:47:51
+LastAccessTime    : 13/11/2026 15:47:53
+LastAccessTimeUtc : 13/11/2026 14:47:53
+LastWriteTime     : 13/11/2026 15:47:51
+LastWriteTimeUtc  : 13/11/2026 14:47:51
+Attributes        : Directory
+Mode              : d-----
+BaseName          : notebooks
+Target            : {}
+LinkType          : 
+
+
+PSPath            : Microsoft.PowerShell.Core\FileSystem::C:\Users\hduss\Hugo perso\Bureau new\ESILV\IF A4\git 
+                    linux\esilv-marketpulse-g06-t03\src
+PSParentPath      : Microsoft.PowerShell.Core\FileSystem::C:\Users\hduss\Hugo perso\Bureau new\ESILV\IF A4\git 
+                    linux\esilv-marketpulse-g06-t03
+PSChildName       : src
+PSDrive           : C
+PSProvider        : Microsoft.PowerShell.Core\FileSystem
+PSIsContainer     : True
+Name              : src
+FullName          : C:\Users\hduss\Hugo perso\Bureau new\ESILV\IF A4\git linux\esilv-marketpulse-g06-t03\src
+Parent            : esilv-marketpulse-g06-t03
+Exists            : True
+Root              : C:\
+Extension         : 
+CreationTime      : 13/11/2026 15:47:51
+CreationTimeUtc   : 13/11/2026 14:47:51
+LastAccessTime    : 13/11/2026 16:23:11
+LastAccessTimeUtc : 13/11/2026 15:23:11
+LastWriteTime     : 13/11/2026 16:23:11
+LastWriteTimeUtc  : 13/11/2026 15:23:11
+Attributes        : Directory
+Mode              : d-----
+BaseName          : src
+Target            : {}
+LinkType          : 
+
+
+LastWriteTime : 13/11/2026 15:47:51
+Length        : 199
+Name          : .gitignore
+
+
+LastWriteTime : 13/11/2026 15:47:51
+Length        : 3126
+Name          : CONTRIBUTING.md
+
+
+LastWriteTime : 13/11/2026 15:47:51
+Length        : 10747
+Name          : README.md
+
+
+LastWriteTime : 13/11/2026 15:47:51
+Length        : 135
+Name          : requirements.txt
+
+
+LastWriteTime : 13/11/2026 15:47:51
+Length        : 1571
+Name          : TEAM.md
+
+
+LastWriteTime : 13/11/2026 15:47:51
+Length        : 1508
+Name          : TEAM_TEMPLATE.md
