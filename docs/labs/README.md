@@ -25,6 +25,15 @@ The common sequence contains 12 TD units for a total of 18 hours.
 | TD11 | Dash Dashboard | Comparative market dashboard |
 | TD12 | Integration + Release | Reproducible final release |
 
+## Current student-file availability
+
+The four-wave plan contains 12 intended labs, but only TD01-TD06 have student-facing Markdown files in this repository at the current revision. Do not treat this plan as proof that TD07-TD12 instructions are published.
+
+| Lab range | Availability in this public Starter | Student action |
+|---|---|---|
+| TD01-TD06 | Published files under `docs/labs/` | Open the matching TD Markdown |
+| TD07-TD12 | Planned, files not yet published | Await an instructor-validated public release |
+
 ## Pedagogical waves
 
 ```text
@@ -162,7 +171,7 @@ PENDING_EXTERNAL supports
 
 PENDING_EXTERNAL means the support exists but still requires a real external teaching environment before activation.
 
-## Files
+## File naming convention (including future, not-yet-published labs)
 
 The TD files follow this naming convention:
 
