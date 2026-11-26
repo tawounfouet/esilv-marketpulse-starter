@@ -130,9 +130,9 @@ def main():
     print("Period     : 1 month")
     print("Interval   : Daily")
     print()
-    print(f"Instrument return    : {snapshot['instrument_return']:.2%}")   # ⚠️
-    print(f"Benchmark return     : {snapshot['benchmark_return']:.2%}")
-    print(f"Relative performance : {snapshot['relative_performance']:.2%}")
+    print(f"Instrument return    : {snapshot['instrument_return']:+.2f}%")
+    print(f"Benchmark return     : {snapshot['benchmark_return']:+.2f}%")
+    print(f"Relative performance : {snapshot['relative_performance']:+.2f} pts")
     print()
     print(f"Base-100 points      : {len(snapshot['instrument_base_100'])}")
     print()
