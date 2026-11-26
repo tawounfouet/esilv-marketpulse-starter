@@ -10,18 +10,20 @@ Copy this file to `TEAM.md` in your team repository and complete it before start
 
 ## Members
 
-| Full name | GitHub username |
+| Member | GitHub username |
 |---|---|
-| Student 1 | @github-user-1 |
-| Student 2 | @github-user-2 |
-| Student 3 | @github-user-3 |
+| Member 1 | @github-user-1 |
+| Member 2 | @github-user-2 |
+| Member 3 | @github-user-3 |
 
 Add a fourth row only if your team has four members.
 
 ## Repository
 
 - Team repository: `esilv-marketpulse-gXX-tYY`
-- Upstream repository: `tawounfouet/esilv-marketpulse`
+- Public student fork source: `tawounfouet/esilv-marketpulse-starter`
+- `origin` in each student's working copy: the team's shared fork
+- The private instructor repository is not a student remote or fork source.
 
 ## Market choice
 
@@ -49,6 +51,9 @@ Our team agrees to follow these rules:
 - each student keeps their checkpoint evidence under their own GitHub username.
 
 ## Privacy
+
+This template belongs to student team repositories, which may be public. Use GitHub usernames to identify collaborators. Do not publish full legal names or administrative roster details here. Instructor identification and formal assessment records remain on an approved private institutional channel.
+
 
 Do not add:
 
