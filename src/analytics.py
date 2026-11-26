@@ -94,3 +94,48 @@ def calculate_relative_performance(instrument_return, benchmark_return):
     """
     return instrument_return - benchmark_return
 
+
+asset_prices = [
+    {"date": "2026-01-01", "ticker": "AAPL", "close": 100.0},
+    {"date": "2026-01-02", "ticker": "AAPL", "close": 110.0},
+    {"date": "2026-01-03", "ticker": "AAPL", "close": 120.0},
+]
+
+bench_prices = [
+    {"date": "2026-01-02", "ticker": "SPY", "close": 210.0},
+    {"date": "2026-01-01", "ticker": "SPY", "close": 200.0},
+    {"date": "2026-01-04", "ticker": "SPY", "close": 220.0},
+]
+
+print("1. Test index_by_date :")
+indexed = index_by_date(asset_prices)
+print(indexed)
+
+print("2. Test align_series :")
+aligned_asset, aligned_bench = align_series(asset_prices, bench_prices)
+print("Actif aligné :", aligned_asset)
+print("Benchmark aligné :", aligned_bench)
+
+print("3. Test calculate_period_return :")
+ret_asset = calculate_period_return(aligned_asset)
+ret_bench = calculate_period_return(aligned_bench)
+print(f"Rendement actif : {ret_asset}%")
+print(f"Rendement benchmark : {ret_bench}%")
+
+try:
+    calculate_period_return([])
+except ValueError as e:
+    print("Erreur liste vide :", e)
+
+try:
+    calculate_period_return([{"close": 0.0}, {"close": 10.0}])
+except ZeroDivisionError as e:
+    print("Erreur division par zéro :", e)
+
+print("4. Test calculate_base_100 :")
+base_100 = calculate_base_100(aligned_bench)
+print(base_100)
+
+print("5. Test calculate_relative_performance :")
+rel_perf = calculate_relative_performance(ret_asset, ret_bench)
+print(f"Surperformance : {rel_perf} pts")
