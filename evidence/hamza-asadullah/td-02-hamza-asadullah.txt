@@ -1,0 +1,75 @@
+@hasaddd20 ➜ /workspaces/esilv-marketpulse-g06-t03 (main) $ git checkout -b
+error: switch `b' requires a value
+@hasaddd20 ➜ /workspaces/esilv-marketpulse-g06-t03 (main) $ git checkout -b hamza-asadullah
+Switched to a new branch 'hamza-asadullah'
+@hasaddd20 ➜ /workspaces/esilv-marketpulse-g06-t03 (hamza-asadullah) $ git branch
+* hamza-asadullah
+  main
+@hasaddd20 ➜ /workspaces/esilv-marketpulse-g06-t03 (hamza-asadullah) $ pwd
+/workspaces/esilv-marketpulse-g06-t03
+@hasaddd20 ➜ /workspaces/esilv-marketpulse-g06-t03 (hamza-asadullah) $ ls
+CONTRIBUTING.md  README.md  TEAM.md  TEAM_TEMPLATE.md  config  data  docs  evidence  requirements.txt  src
+@hasaddd20 ➜ /workspaces/esilv-marketpulse-g06-t03 (hamza-asadullah) $ ls-la
+bash: ls-la: command not found
+@hasaddd20 ➜ /workspaces/esilv-marketpulse-g06-t03 (hamza-asadullah) $ ls -la
+total 64
+drwxrwxrwx+ 8 codespace root  4096 Oct 16 07:36 .
+drwxr-xrwx+ 5 codespace root  4096 Oct 16 07:36 ..
+drwxrwxrwx+ 8 codespace root  4096 Oct 16 08:46 .git
+-rw-rw-rw-  1 codespace root   178 Oct 16 07:36 .gitignore
+-rw-rw-rw-  1 codespace root  2943 Oct 16 07:36 CONTRIBUTING.md
+-rw-rw-rw-  1 codespace root 10270 Oct 16 07:36 README.md
+-rw-rw-rw-  1 codespace root  1500 Oct 16 07:36 TEAM.md
+-rw-rw-rw-  1 codespace root  1446 Oct 16 07:36 TEAM_TEMPLATE.md
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:36 config
+drwxrwxrwx+ 3 codespace root  4096 Oct 16 07:36 data
+drwxrwxrwx+ 4 codespace root  4096 Oct 16 07:36 docs
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 08:50 evidence
+-rw-rw-rw-  1 codespace root   133 Oct 16 07:36 requirements.txt
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:36 src
+@hasaddd20 ➜ /workspaces/esilv-marketpulse-g06-t03 (hamza-asadullah) $ ls -l
+total 48
+-rw-rw-rw-  1 codespace root  2943 Oct 16 07:36 CONTRIBUTING.md
+-rw-rw-rw-  1 codespace root 10270 Oct 16 07:36 README.md
+-rw-rw-rw-  1 codespace root  1500 Oct 16 07:36 TEAM.md
+-rw-rw-rw-  1 codespace root  1446 Oct 16 07:36 TEAM_TEMPLATE.md
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:36 config
+drwxrwxrwx+ 3 codespace root  4096 Oct 16 07:36 data
+drwxrwxrwx+ 4 codespace root  4096 Oct 16 07:36 docs
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 08:50 evidence
+-rw-rw-rw-  1 codespace root   133 Oct 16 07:36 requirements.txt
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:36 src
+@hasaddd20 ➜ /workspaces/esilv-marketpulse-g06-t03 (hamza-asadullah) $ git add /workspaces/esilv-marketpulse-g06-t03/evidence/td-02-hamza-asadullah.txt
+@hasaddd20 ➜ /workspaces/esilv-marketpulse-g06-t03 (hamza-asadullah) $ git add evidence/ td
+fatal: pathspec 'td' did not match any files
+@hasaddd20 ➜ /workspaces/esilv-marketpulse-g06-t03 (hamza-asadullah) $ git commit -m
+error: switch `m' requires a value
+@hasaddd20 ➜ /workspaces/esilv-marketpulse-g06-t03 (hamza-asadullah) $ git commit -m "Linux Basics"
+[hamza-asadullah 4d6c08e] Linux Basics
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 evidence/td-02-hamza-asadullah.txt
+@hasaddd20 ➜ /workspaces/esilv-marketpulse-g06-t03 (hamza-asadullah) $ git push
+fatal: The current branch hamza-asadullah has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin hamza-asadullah
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+@hasaddd20 ➜ /workspaces/esilv-marketpulse-g06-t03 (hamza-asadullah) $ git push --set-upstream origin hamza-asadullah
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (13/13), 3.98 KiB | 3.98 MiB/s, done.
+Total 13 (delta 5), reused 2 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'hamza-asadullah' on GitHub by visiting:
+remote:      https://github.com/hasaddd20/esilv-marketpulse-g06-t03/pull/new/hamza-asadullah
+remote: 
+To https://github.com/hasaddd20/esilv-marketpulse-g06-t03
+ * [new branch]      hamza-asadullah -> hamza-asadullah
+branch 'hamza-asadullah' set up to track 'origin/hamza-asadullah'.
+@hasaddd20 ➜ /workspaces/esilv-marketpulse-g06-t03 (hamza-asadullah) $ 
