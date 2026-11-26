@@ -68,11 +68,13 @@ not:
 1 fork
 ```
 
-Instructor repository:
+Public student fork source:
 
 ```text
-tawounfouet/esilv-marketpulse
+tawounfouet/esilv-marketpulse-starter
 ```
+
+The instructor repository is separate and private; it is not the student fork source.
 
 Team repository:
 
@@ -537,7 +539,7 @@ team main
 Do not target:
 
 ```text
-tawounfouet/esilv-marketpulse
+tawounfouet/esilv-marketpulse-starter
 ```
 
 The TD05 Pull Request belongs inside the team repository.
