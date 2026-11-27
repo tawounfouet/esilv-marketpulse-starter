@@ -1,0 +1,135 @@
+Project root resolved to : /home/vishwaraj/My Drive/s7/python_git_linux/esilv-marketpulse-g05-t07
+
+Data directory           : /home/vishwaraj/My Drive/s7/python_git_linux/esilv-marketpulse-g05-t07/data/sample
+
+instruments.json exists  : True
+
+prices.csv exists        : True
+
+Dictionary keys   : ['ticker', 'name', 'currency', 'is_active']
+
+Access by key     : Apple Inc.
+
+Safe get with def : UNKNOWN
+
+Loop filter count : 2
+
+Comp filter count : 2
+
+Type of loaded JSON: <class 'dict'>
+
+Top-level keys     : ['instrument', 'benchmark']
+
+--- Primary Instrument ---
+
+Ticker   : AAPL
+
+Name     : Apple Inc.
+
+Currency : USD
+
+Market   : NASDAQ
+
+
+
+--- Benchmark Index ---
+
+Ticker   : SP500
+
+Name     : S&P 500
+
+Currency : USD
+
+Market   : US
+
+Total records loaded : 42
+
+Type of prices       : <class 'list'>
+
+Type of each row     : <class 'dict'>
+
+
+
+First observation sample:
+
+  date     -> 2026-09-01 (type: str)
+
+  ticker   -> AAPL (type: str)
+
+  open     -> 249.20 (type: str)
+
+  high     -> 251.50 (type: str)
+
+  low      -> 248.00 (type: str)
+
+  close    -> 250.00 (type: str)
+
+  volume   -> 38000000 (type: str)
+
+String concatenation : raw_close + '10' = 250.0010  <-- INCORRECT!
+
+Numerical addition   : converted_close + 10 = 260.00  <-- CORRECT!
+
+Instrument observations (AAPL) : 21
+
+Benchmark observations  (SP500)  : 21
+
+AAPL  -> First Close: 250.00 | Last Close: 266.20
+
+SP500 -> First Close: 6600.00 | Last Close: 6742.00
+
+=== Test Display ===
+
+
+
+AAPL - Apple Inc.
+
+Observations : 21
+
+First close  : 250.00 USD
+
+Last close   : 266.20 USD
+
+
+
+SP500 - S&P 500
+
+Observations : 21
+
+First close  : 6600.00
+
+Last close   : 6742.00
+
+=== MarketPulse ===
+
+
+
+Market configuration
+
+Period   : 1 month
+
+Interval : Daily
+
+
+
+Instrument
+
+AAPL - Apple Inc.
+
+Observations : 21
+
+First close  : 250.00 USD
+
+Last close   : 266.20 USD
+
+
+
+Benchmark
+
+SP500 - S&P 500
+
+Observations : 21
+
+First close  : 6600.00
+
+Last close   : 6742.00
