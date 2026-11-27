@@ -99,6 +99,14 @@ separate support under docs/advanced/
 never required for a checkpoint
 ```
 
+Instructor-only conceptual depth remains under:
+
+```text
+docs/instructor/
+```
+
+and is not student evidence.
+
 A student who completes the CORE without ADVANCED work must remain eligible for full common checkpoint assessment.
 
 ## Advanced track portal

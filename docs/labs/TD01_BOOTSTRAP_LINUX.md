@@ -14,6 +14,7 @@
 
 ## Context
 
+You are joining the software/data team of a trading desk.
 You are joining a trading desk.
 
 During the module, your team will progressively build MarketPulse, a Python application that compares a financial instrument with its market benchmark.
@@ -69,6 +70,7 @@ Optional exploration is not required to complete TD01.
 Instructor repository:
 
 ```text
+tawounfouet/esilv-marketpulse
 tawounfouet/esilv-marketpulse-starter
 ```
 
@@ -162,6 +164,7 @@ Do not implement these later stages today.
 The starter contains:
 
 ```text
+esilv-marketpulse/
 esilv-marketpulse-starter/
 ├── README.md
 ├── TEAM_TEMPLATE.md
@@ -699,44 +702,6 @@ Then retry:
 python src/main.py
 ```
 
-# Checkpoint relation and Evidence Artefacts
-
-The single source of truth for all evidence requirements is:
-
-```text
-docs/04_CHECKPOINTS_AND_EVIDENCE.md
-```
-
-Checkpoint A is formally validated after TD04. No screenshot submission is required at the end of TD01.
-
-However, TD01 establishes the working environment and terminal mastery required for the first Checkpoint A evidence artefact:
-
-```text
-evidence/checkpoint-a/<github-username>/01_terminal_python.png
-```
-
-### Checkpoint A Artefact: `01_terminal_python.png`
-
-| Attribute | Specification |
-|---|---|
-| **Checkpoint** | Checkpoint A — Foundations (25% weight) |
-| **Filename** | `01_terminal_python.png` |
-| **Target Directory** | `evidence/checkpoint-a/<github-username>/` |
-| **Status** | Required for Checkpoint A |
-| **Format** | PNG (lowercase_snake_case, no spaces, no accents) |
-
-#### What the screenshot must display:
-```bash
-pwd
-ls
-python src/main.py
-```
-
-#### Verification objective:
-Demonstrates that the student can open a Linux terminal, navigate to the team repository root (`pwd`), list project contents (`ls`), and execute MarketPulse (`python src/main.py`) with clean starter output.
-
-> **Tip:** You may prepare and save this screenshot now in your individual evidence folder so that it is ready for Checkpoint A.
-
 # What comes next?
 
 Pedagogical Wave 1 is not finished yet.
@@ -755,6 +720,6 @@ Instrument
 Benchmark
 ```
 
-No checkpoint evidence is submitted at the end of TD01.
+No checkpoint evidence is required at the end of TD01.
 
 Checkpoint A is performed after TD04.

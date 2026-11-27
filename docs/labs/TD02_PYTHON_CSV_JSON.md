@@ -758,6 +758,17 @@ The team should confirm:
 [ ] no return calculation was added
 ```
 
+# Checkpoint relation
+
+No screenshot package is submitted after TD02.
+
+TD01 and TD02 contribute to:
+
+```text
+Checkpoint A - Foundations
+```
+
+Checkpoint A is validated after TD04.
 # Checkpoint relation and Evidence Artefacts
 
 The single source of truth for all checkpoint evidence requirements is:
