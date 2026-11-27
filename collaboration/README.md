@@ -6,6 +6,18 @@ Séance IF5 du **vendredi 27 novembre 2026**, de **13h30 à 16h45** (pause 15h00
 
 > **Objectif :** organiser le travail d'une équipe de développeurs et construire progressivement MarketPulse. Nous réutilisons Git et GitHub pendant TD07 et TD08, au lieu de terminer Git avant de passer aux données financières.
 
+## Rappel actif TD01-TD06 (13h30-13h50)
+
+Après un mois sans séance IF5, nous commençons par une **réactivation formative, non notée**, des fondations Linux, Python, Git et GitHub.
+
+**Nouveau : [refresh/ - scripts Bash/Python et modèles mentaux](refresh/README.md)**. Ce laboratoire est exécutable dans Codespaces ou Linux :
+
+```bash
+bash collaboration/refresh/scripts/run_refresh.sh
+```
+
+Le parcours court est en lecture seule. Des simulations TD03/TD04 dans des dépôts temporaires sont disponibles avec `--labs`, et les aides TD05/TD06 sont en lecture seule. Aucun script ne crée une PR, n'approuve un code ni ne fusionne dans le dépôt d'équipe.
+
 ## À faire maintenant (5 minutes)
 
 1. Ouvrir le **fork partagé de votre équipe**, pas le Starter de l'instructeur.
@@ -20,10 +32,11 @@ Séance IF5 du **vendredi 27 novembre 2026**, de **13h30 à 16h45** (pause 15h00
 
 | Heure | Atelier | Ce que vous devez montrer |
 | --- | --- | --- |
-| 13h30-13h50 | [Issues et rôles](01_ISSUES_ET_ROLES.md) | Issue TD07 créée, Developer et Reviewer prévus |
-| 13h50-14h10 | [PR et Code Review](02_BRANCH_PR_CODE_REVIEW.md) | Diff inspecté, retour technique argumenté |
-| 14h10-14h40 | [Conflit Git contrôlé](03_LAB_CONFLITS_GIT.md) | Conflit compris et résolu en dépôt jetable |
-| 14h40-15h00 | [TD07 - notebook 01](04_TD07_ANALYTICS.md) | Alignement et calcul financier compris |
+| 13h30-13h50 | [Refresh TD01-TD06](refresh/README.md) | Questions flash + diagnostic Git/Linux/Python |
+| 13h50-14h05 | [Issues et rôles](01_ISSUES_ET_ROLES.md) | Issue TD07 créée, Developer et Reviewer prévus |
+| 14h05-14h20 | [PR et Code Review](02_BRANCH_PR_CODE_REVIEW.md) | Diff inspecté, retour technique argumenté |
+| 14h20-14h50 | [Conflit Git contrôlé](03_LAB_CONFLITS_GIT.md) | Conflit compris et résolu en dépôt jetable |
+| 14h50-15h00 | [TD07 - notebook 01](04_TD07_ANALYTICS.md) | Alignement et calcul financier compris |
 | 15h00-15h15 | Pause | |
 | 15h15-15h55 | [TD07 - développement](04_TD07_ANALYTICS.md) | `analytics.py` + intégration en cours |
 | 15h55-16h15 | [PR / Review TD07](02_BRANCH_PR_CODE_REVIEW.md) | PR examinée ; merge seulement si prête |
@@ -53,6 +66,7 @@ flowchart LR
 
 | Ressource | Usage |
 | --- | --- |
+| [00 - Refresh TD01-TD06](refresh/README.md) | Bash/Python commentés, modèles mentaux et vérifications sans risque |
 | [01 - Issues et rôles](01_ISSUES_ET_ROLES.md) | Configurer les équipes et préparer une feature |
 | [02 - Branche, PR et Code Review](02_BRANCH_PR_CODE_REVIEW.md) | Réaliser et examiner une contribution |
 | [03 - Résolution de conflits](03_LAB_CONFLITS_GIT.md) | Mini-lab exécutable et sûr |
