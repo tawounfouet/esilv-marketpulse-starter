@@ -1,0 +1,78 @@
+Ticker : AAPL (Type : str)
+Prix   : 250.0 (Type : float)
+Volume : 1500 (Type : int)
+Actif  : True (Type : bool)
+Notes  : None (Type : NoneType)
+
+Concaténation sans conversion  : 250.0010.00
+Addition arithmétique correcte : 260.0
+
+Nettoyage : '   AAPL  
+' -> 'AAPL'
+Actif      : Apple Inc.      | Ticker : AAPL
+Rendement  : +6.48%  (signe explicite, 2 décimales)
+Alpha      : -1.25 pp
+
+Diagnostic : SURPERFORMANCE (Outperforming benchmark)
+Sécurité : Aucune observation détectée, calcul annulé.
+
+--- Parcours de la liste d'instruments ---
+  [1] Traitement de l'actif : AAPL
+  [2] Traitement de l'actif : MSFT
+  [3] Jeton d'arrêt détecté ! Arrêt immédiat.
+Connexion au provider établie après 2 tentative(s).
+
+Liste complète : [248.5, 250.0, 251.3, 254.2]
+Premier élément [0]  : 248.5
+Dernier élément [-1] : 254.2
+Slicing [1:3]        : [250.0, 251.3]
+Taille len()         : 4
+
+Symbole: AAPL, Bourse: NASDAQ, Devise: USD
+
+Date de clôture : 2026-09-01
+Cours de clôture : 250.0
+Adjusted Close (avec fallback) : 250.0
+
+--- Champs de l'observation canonique ---
+  date     -> 2026-09-01
+  ticker   -> AAPL
+  open     -> 249.2
+  high     -> 251.5
+  low      -> 248.0
+  close    -> 250.0
+  volume   -> 38000000
+
+Jours communs de cotation : ['2026-09-02', '2026-09-03', '2026-09-04']
+
+Surperformance calculée : +4.33 points de pourcentage.
+
+Gain net après imposition : 750.00 USD
+
+Test normal : 1.0648
+⚠️ Alerte : Cours initial nul, impossible de diviser par zéro.
+Test zéro   : 1.0
+
+Observations extraites avec succès : 2
+
+Observation au 2026-09-02 : {'date': '2026-09-02', 'close': 251.3}
+
+Type de la variable : <class 'dict'>
+Clés présentes      : ['ticker', 'close']
+✅ Validations contractuelles réussies !
+
+Répertoire de travail : /home/vishwaraj/My Drive/s7/python_git_linux/esilv-marketpulse-g05-t07/notebooks
+Racine du projet      : /home/vishwaraj/My Drive/s7/python_git_linux/esilv-marketpulse-g05-t07
+Dossier de données    : /home/vishwaraj/My Drive/s7/python_git_linux/esilv-marketpulse-g05-t07/data/sample
+Le dossier existe-t-il?: True
+
+Exécution CLI directe : Rapport financier généré avec succès.
+
+=== Synthèse Démonstrateur MarketPulse ===
+Instrument : AAPL (Apple Inc.)
+Période    : 2026-09-01 -> 2026-09-30
+Premier    : 250.00 USD
+Dernier    : 266.20 USD
+Rendement  : +6.48%
+
+🚀 Modèle mental Python validé avec succès pour MarketPulse !
