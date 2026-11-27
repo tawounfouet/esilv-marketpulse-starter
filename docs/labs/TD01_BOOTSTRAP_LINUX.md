@@ -15,6 +15,7 @@
 ## Context
 
 You are joining the software/data team of a trading desk.
+You are joining a trading desk.
 
 During the module, your team will progressively build MarketPulse, a Python application that compares a financial instrument with its market benchmark.
 
@@ -70,6 +71,7 @@ Instructor repository:
 
 ```text
 tawounfouet/esilv-marketpulse
+tawounfouet/esilv-marketpulse-starter
 ```
 
 Team repository naming convention:
@@ -163,6 +165,7 @@ The starter contains:
 
 ```text
 esilv-marketpulse/
+esilv-marketpulse-starter/
 ├── README.md
 ├── TEAM_TEMPLATE.md
 ├── CONTRIBUTING.md

@@ -769,6 +769,47 @@ Checkpoint A - Foundations
 ```
 
 Checkpoint A is validated after TD04.
+# Checkpoint relation and Evidence Artefacts
+
+The single source of truth for all checkpoint evidence requirements is:
+
+```text
+docs/04_CHECKPOINTS_AND_EVIDENCE.md
+```
+
+No screenshot package is submitted after TD02.
+
+TD01 and TD02 together establish the execution skills validated by:
+
+```text
+Checkpoint A - Foundations (25% weight)
+```
+
+Checkpoint A is officially assessed after TD04.
+
+### Checkpoint A Artefact: `01_terminal_python.png`
+
+The first required Checkpoint A screenshot can be captured from the working TD02 state:
+
+| Attribute | Specification |
+|---|---|
+| **Checkpoint** | Checkpoint A — Foundations |
+| **Filename** | `01_terminal_python.png` |
+| **Target Directory** | `evidence/checkpoint-a/<github-username>/` |
+| **Status** | Required for Checkpoint A |
+| **Format** | PNG (lowercase_snake_case, strictly no spaces) |
+
+#### Terminal execution to display:
+```bash
+pwd
+ls
+python src/main.py
+```
+
+#### Verification objective:
+Shows that the student can navigate the Linux project repository and run MarketPulse with local CSV/JSON loading, displaying the 21 observations and first/last close values for both `AAPL` and `SP500`.
+
+> **Note:** Each student must capture their own screenshot in their own named directory (`evidence/checkpoint-a/<github-username>/`). Submissions are graded after TD04.
 
 # What comes next?
 

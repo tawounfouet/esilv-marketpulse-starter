@@ -258,6 +258,15 @@ Instructor reference:
 docs/10_BLOOMBERG_INSTRUCTOR_REFERENCE.md
 ```
 
+## Atelier Collaboration IF5 - 27 novembre 2026
+
+**Nouveau :** [espace public `collaboration/` pour les étudiants](collaboration/README.md).
+
+L'atelier réunit **Issues + attribution Developer/Reviewer + branches + Pull Requests + Code Reviews + résolution de conflits**, puis applique ce workflow aux notebooks **TD07 Analytics** et **TD08 Yahoo**.
+
+> Commencer par [le parcours collaboratif de la séance](collaboration/README.md). Les Issues d'équipe doivent être créées dans chaque **fork partagé** ; les [Issues #39 et #40 du Starter](https://github.com/tawounfouet/esilv-marketpulse-starter/issues) servent uniquement de références pédagogiques.
+
+
 ## Student Git workflow
 
 The collaboration model is:
