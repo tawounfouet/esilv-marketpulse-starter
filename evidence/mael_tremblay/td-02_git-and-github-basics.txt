@@ -1,0 +1,37 @@
+@MaelTremblay1 ➜ /workspaces/esilv-marketpulse-starter (Mael-Tremblay) $ python src/main.py
+=== MarketPulse ===
+
+Instrument
+AAPL - Apple Inc.
+Last price: 266.20 USD
+
+Benchmark
+SP500 - S&P 500
+Last level: 6742.00
+
+Period: 1 month
+Interval: Daily
+
+Observations
+AAPL: 21
+SP500: 21
+
+@MaelTremblay1 ➜ /workspaces/esilv-marketpulse-starter (Mael-Tremblay) $ git branch
+* Mael-Tremblay
+  main
+
+@MaelTremblay1 ➜ /workspaces/esilv-marketpulse-starter (Mael-Tremblay) $ git status
+On branch Mael-Tremblay
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        evidence/test_mael_tremblay.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+@MaelTremblay1 ➜ /workspaces/esilv-marketpulse-starter (Mael-Tremblay) $ git add evidence/test_mael_tremblay.txt
+@MaelTremblay1 ➜ /workspaces/esilv-marketpulse-starter (Mael-Tremblay) $ git commit -m "Comit test branch mael tremblay"
+[Mael-Tremblay c31a285] Comit test branch mael tremblay
+ 1 file changed, 21 insertions(+)
+ create mode 100644 evidence/test_mael_tremblay.txt
+@MaelTremblay1 ➜ /workspaces/esilv-marketpulse-starter (Mael-Tremblay) $ git status
+On branch Mael-Tremblay
+nothing to commit, working tree clean
