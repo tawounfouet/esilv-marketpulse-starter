@@ -18,6 +18,10 @@ Student-facing labs may repeat a short capture checklist for convenience, but th
 
 If another repository document conflicts with this file, this file controls the checkpoint evidence requirements.
 
+## Publication status of grading guidance
+
+This document defines technical evidence requirements for learning and validation. Numerical weights below (25% / 30% / 45%, 70% / 30%, and indicative rubric shares) are **proposals**, not confirmed institutional grading policy. A teacher must explicitly validate any grading weights before representing them as official. Evidence filenames and observable technical checks remain distinct from grading decisions.
+
 ## 1. Purpose
 
 The goal is not to grade every lab independently.

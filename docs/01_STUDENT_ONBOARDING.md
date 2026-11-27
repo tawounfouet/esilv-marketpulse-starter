@@ -37,11 +37,13 @@ G03-T02
 
 Only one member creates the initial team fork.
 
-Source repository:
+Source repository (public student Starter):
 
 ```text
 tawounfouet/esilv-marketpulse-starter
 ```
+
+The separate private instructor repository must not be used as the team fork source.
 
 The fork belongs to the team for the duration of the module.
 
@@ -87,11 +89,11 @@ Complete:
 
 - TD group;
 - MarketPulse team number;
-- full names;
+- GitHub usernames for each team member (no full legal names);
 - GitHub usernames;
 - repository name.
 
-Do not include personal email addresses or student identification numbers.
+Do not include full legal names, personal email addresses or student identification numbers in the team repository. Formal class rosters and grades must stay in approved private channels.
 
 ## 7. Open the development environment
 

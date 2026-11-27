@@ -8,12 +8,12 @@
   />
 </p>
 
-[![Course: MESIFI472326](https://img.shields.io/badge/course-MESIFI472326-1f6feb.svg)](docs/06_TD_SEQUENCE_AND_LEARNING_PATH.md)
-[![ESILV A4](https://img.shields.io/badge/ESILV-A4-111827.svg)](docs/00_MARKETPULSE_FUNCTIONAL_CONTRACT.md)
+[![Course: MESIFI472326](https://img.shields.io/badge/course-MESIFI472326-1f6feb.svg)](docs/labs/README.md)
+[![ESILV A4](https://img.shields.io/badge/ESILV-A4-111827.svg)](docs/labs/README.md)
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB.svg)](https://www.python.org/)
 [![Labs](https://img.shields.io/badge/labs-12-2ea44f.svg)](docs/labs/README.md)
-[![TD](https://img.shields.io/badge/TD-18h-orange.svg)](docs/06_TD_SEQUENCE_AND_LEARNING_PATH.md)
-[![Status](https://img.shields.io/badge/status-baseline%20ready-success.svg)](docs/16_TEACHING_BASELINE_RELEASE.md)
+[![TD](https://img.shields.io/badge/TD-18h-orange.svg)](docs/labs/README.md)
+[![Status](https://img.shields.io/badge/status-student%20starter-3776AB.svg)](docs/01_STUDENT_ONBOARDING.md)
 
 **MarketPulse** is the progressive teaching project for the **ESILV A4 - Python, Git, Linux** module.
 
@@ -124,7 +124,7 @@ The central business question is:
 
 > Is the selected instrument outperforming or underperforming its benchmark over the same period and frequency?
 
-See [the functional contract](docs/00_MARKETPULSE_FUNCTIONAL_CONTRACT.md).
+See the [student lab index](docs/labs/README.md) for the published CORE steps. The complete instructor functional contract is not part of this public starter.
 
 ## Application architecture
 
@@ -175,7 +175,7 @@ Dash presentation
 snapshot consumption
 ```
 
-The application result shared by terminal and Dash is defined in [the snapshot contract](docs/12_MARKETPULSE_APPLICATION_SNAPSHOT_CONTRACT.md).
+The application result shared by terminal and Dash is defined in the shared snapshot model introduced in the later CORE sequence (not yet a published student contract).
 
 The design principle is:
 
@@ -226,7 +226,7 @@ plotly
 
 The complete dependency model, including standard-library modules, transitive dependencies, Bloomberg environment rules and explicit CORE exclusions, is documented in:
 
-[MarketPulse libraries and dependencies](docs/13_MARKETPULSE_LIBRARIES_AND_DEPENDENCIES.md)
+the current [`requirements.txt`](requirements.txt) and the [lab index](docs/labs/README.md)
 
 Do not add packages that are not actually required by the implementation.
 
@@ -298,14 +298,16 @@ merge
 Start with:
 
 - [Student onboarding](docs/01_STUDENT_ONBOARDING.md)
-- [Git team workflow](docs/03_GITHUB_TEAM_WORKFLOW.md)
+- [Git team workflow](CONTRIBUTING.md)
 - [Contributing guide](CONTRIBUTING.md)
 
-Canonical instructor repository:
+Student fork source (public):
 
 ```text
-tawounfouet/esilv-marketpulse
+tawounfouet/esilv-marketpulse-starter
 ```
+
+The separate instructor repository is private and is not the source of student forks.
 
 ## 18-hour learning path
 
@@ -336,23 +338,25 @@ TD12 Integration + Release
 
 ## Assessment checkpoints
 
+Any checkpoint weights in the technical evidence guide remain pedagogical proposals. Official grades and weights require teaching-team approval.
+
 The checkpoint phases are different from the four pedagogical waves:
 
 ```text
 Checkpoint A
 TD01-TD04
 Foundations
-25% of the TD grade
+indicative only - not an approved institutional weight
 
 Checkpoint B
 TD05-TD08
 Collaboration and Data
-30% of the TD grade
+indicative only - not an approved institutional weight
 
 Checkpoint C
 TD09-TD12
 Integration and Release
-45% of the TD grade
+indicative only - not an approved institutional weight
 ```
 
 The canonical evidence specification is:
@@ -405,7 +409,7 @@ release validation only
 
 Target structure:
 
-[Target repository structure](docs/05_TARGET_REPOSITORY_STRUCTURE.md)
+See the [lab index](docs/labs/README.md) for the planned sequence and actual published availability.
 
 
 
@@ -453,11 +457,7 @@ The lab-to-advanced availability map is maintained in:
 docs/labs/README.md
 ```
 
-Instructor deep dives are indexed from:
-
-```text
-docs/instructor/deep-dives/README.md
-```
+Instructor deep dives belong to the separate private instructor repository and are not student-facing resources.
 
 Some advanced supports may exist with status:
 
