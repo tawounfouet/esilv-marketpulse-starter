@@ -29,14 +29,14 @@ Le provider s'occupe de l'acquisition et de la conversion au contrat commun. Les
 
 ## Étapes d'une première exploration
 
-1. Lire notebook 02 et comprendre l'exemple `yf.Ticker("AAPL").history(period="1mo", interval="1d")`.
-2. Installer `yfinance` si nécessaire, puis déclarer la dépendance dans `requirements.txt` **uniquement quand la feature TD08 commence**.
-3. Créer `src/providers/__init__.py` puis `src/providers/yahoo_provider.py`.
-4. Mettre en place le mapping `AAPL -> AAPL` et `SP500 -> ^GSPC`.
-5. Obtenir des lignes canoniques de deux sources de données AAPL et SP500 : `date,ticker,open,high,low,close,volume`.
-6. Conserver `SP500` comme identifiant métier dans la sortie, même si le fournisseur utilise `^GSPC`.
-7. Réutiliser les calculs TD07 **sans changer `analytics.py`**.
-8. Ouvrir une nouvelle Issue d'équipe, assigner Developer / Reviewer, puis commencer la branche et PR TD08 selon le [workflow de collaboration](02_BRANCH_PR_CODE_REVIEW.md).
+1. Lire notebook 02 et comprendre l'exemple `yf.Ticker("AAPL").history(period="1mo", interval="1d")`. Cette lecture peut avoir lieu avant toute nouvelle branche.
+2. **Dans votre dépôt d'équipe**, ouvrir l'Issue TD08, y déclarer la dépendance TD07, attribuer le Developer, désigner un Reviewer distinct et confirmer le GO TD07. **Créer seulement alors** la branche TD08 depuis `main` à jour.
+3. Installer `yfinance` si nécessaire sur cette branche, puis déclarer la dépendance dans `requirements.txt` si la feature TD08 est effectivement démarrée.
+4. Créer `src/providers/__init__.py` puis `src/providers/yahoo_provider.py`.
+5. Mettre en place le mapping `AAPL -> AAPL` et `SP500 -> ^GSPC`.
+6. Obtenir les lignes canoniques pour l'instrument AAPL et le benchmark SP500 : `date,ticker,open,high,low,close,volume`.
+7. Conserver `SP500` comme identifiant métier dans la sortie, même si le fournisseur utilise `^GSPC`.
+8. Réutiliser les calculs TD07 **sans changer `analytics.py`**, puis soumettre une PR liée à l'Issue et demander une vraie review selon le [workflow de collaboration](02_BRANCH_PR_CODE_REVIEW.md).
 
 **Note :** `yfinance` est une bibliothèque communautaire, ce n'est pas une API officielle Yahoo. Les valeurs de marché et la structure exacte de la réponse peuvent varier.
 
